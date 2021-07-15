@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Faucet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="https://unpkg.com/mobi.css/dist/mobi.min.css">
+</head>
+<body style="padding:20px 50px;">
+<div>
+<h3>Coco Alpha Faucet</h3>
+<p><button onclick="init()" class="btn btn-primary">链接钱包</button></p>
+<p id="current_address">钱包地址: </p>
+<p>选择测试币种: (每5分钟最多只能领取一次) </p>
+<select id="id_select" class="unit">
+<option value="0xA1d887987Be4b3C807B86240fFA975Aa6593C1E0">cUSDT(0xA1d887987Be4b3C807B86240fFA975Aa6593C1E0)</option>
+<option value="0xF236A9C6df559198167EBFfDc1B818EB3913fA04">cBTC(0xF236A9C6df559198167EBFfDc1B818EB3913fA04)</option>
+<option value="0x8F39901b313786d23F430Bce577B77BAE8Cccade">cETH(0xF236A9C6df559198167EBFfDc1B818EB3913fA04)</option>
+</select>
+<p><button onclick="faucet()" class="btn btn-primary">领取</button></p>
+<p id="id_rs"></p>
+</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@1.3.5/dist/web3.min.js"></script>
+<script>
+        let web3 = null;
+        let provider = null;
+        let address = '';
+        let faucetAbi = JSON.parse('[{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"constant":false,"inputs":[{"internalType":"address","name":"token","type":"address"}],"name":"faucet","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"isOwner","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"isPause","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"recover","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"renounceOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bool","name":"_isPause","type":"bool"}],"name":"setPause","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]');
+        let faucetAddress = '0x686dc1eDA5A0248c01d87F0BD34C32fa4B92acA5';
+        let faucetContract = null;
+
+        async function init() {
+            try {
+                await window.ethereum.enable();
+                address = window.ethereum.selectedAddress || window.ethereum.address;
+                provider = window.ethereum;
+                web3 = new Web3(provider)
+                faucetContract = new web3.eth.Contract(faucetAbi, faucetAddress);
+
+                document.getElementById('current_address').innerText = `钱包地址: ${address}`;
+            } catch (err) {
+                console.error(err);
+                document.getElementById('current_address').innerText = `连接钱包失败, 请确认MetaMask是否正常`;
+            }
+        }
+
+        async function faucet(){
+            let tokenAddress = document.getElementById('id_select').value;
+            console.log('tokenAddress', tokenAddress);
+            try {
+                let rs = await faucetContract.methods.faucet(tokenAddress).send({
+                    from: address
+                })
+                document.getElementById('id_rs').innerText = `成功 https://hecoinfo.com/tx/${rs.transactionHash}`;
+            } catch (e) {
+                console.error(JSON.stringify(e))
+                document.getElementById('id_rs').innerText = `失败 ${JSON.stringify(e)}`;
+            }
+
+        }
+        window.onload = init()
+
+    </script>
+</body>
+</html>
