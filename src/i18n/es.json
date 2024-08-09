@@ -1,0 +1,481 @@
+{
+    "name": "Nombre",
+    "tel": "Teléfono",
+    "save": "Guardar",
+    "clear": "Claro",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "loading": "Cargando...",
+    "noCoupon": "Sin cupones",
+    "nameEmpty": "Por favor rellena el nombre",
+    "addContact": "Añadi contacto",
+    "telInvalid": "Teléfono inválido",
+    "vanCalendar": {
+        "end": "Fin",
+        "start": "Inicio",
+        "title": "Calendario",
+        "weekdays": [
+            "Dom",
+            "Lun",
+            "Mar",
+            "Mié",
+            "Jue",
+            "Vie",
+            "Sáb"
+        ]
+    },
+    "vanCascader": {
+        "select": "Seleccione"
+    },
+    "vanPagination": {
+        "prev": "Anterior",
+        "next": "Siguiente"
+    },
+    "vanPullRefresh": {
+        "pulling": "Tira para recargar...",
+        "loosing": "Suelta para recargar..."
+    },
+    "vanSubmitBar": {
+        "label": "Total:"
+    },
+    "vanCoupon": {
+        "unlimited": "Ilimitado"
+    },
+    "vanCouponCell": {
+        "title": "Cupón"
+    },
+    "vanCouponList": {
+        "exchange": "Intercambio",
+        "close": "Cerrar",
+        "enable": "Disponible",
+        "disabled": "No disponible",
+        "placeholder": "Código del cupón"
+    },
+    "vanAddressEdit": {
+        "area": "Área",
+        "areaEmpty": "Por favor selecciona una área de recogida",
+        "addressEmpty": "La dirección no puede estar vacia",
+        "addressDetail": "Dirección",
+        "defaultAddress": "Establecer como dirección por defecto"
+    },
+    "vanAddressList": {
+        "add": "Anadir dirección"
+    },
+    "system": {
+        "terms": "Términos y condiciones",
+        "actions": {
+            "Submit": "Enviar",
+            "BackToLogin": "Volver a iniciar sesión",
+            "Register": "Registrarse",
+            "Logout": "Cerrar sesión",
+            "Update": "Actualizar",
+            "Taptochange": "Toque para cambiar"
+        },
+        "rules": {
+            "isRequired": "Requerido",
+            "require": "{0} es obligatorio",
+            "valid": "{0} no es válido {0}",
+            "cannotContainBlankStrings": "{0} no puede contener cadenas en blanco"
+        },
+        "options": {
+            "gender": [
+                "Masculino",
+                "Femenino"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "base",
+        "login": "Iniciar sesión",
+        "register": "Registrarse",
+        "home": "Inicio",
+        "service": "Servicio",
+        "starting": "Comenzando",
+        "records": "Registros",
+        "my": "Mi",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "¡Error en la solicitud! Por favor, inténtalo de nuevo más tarde",
+            "401": "¡La sesión de inicio de sesión ha caducado! Por favor, vuelve a iniciar sesión",
+            "403": "La cuenta actual no tiene permisos de acceso",
+            "404": "El recurso que estás intentando acceder no existe",
+            "405": "¡Método de solicitud incorrecto! Por favor, inténtalo de nuevo más tarde",
+            "408": "¡Tiempo de espera de la solicitud! Por favor, inténtalo de nuevo más tarde",
+            "500": "El servicio encontró una excepción",
+            "990": "Su cuenta ha estado congelada debido a tareas no completadas durante mucho tiempo",
+            "10030008": "Devuelva el fondo de asistencia antes de solicitar la retirada de efectivo",
+            "10030010": "El código de invitación no existe",
+            "10030011": "Se superó el número máximo de veces de registro",
+            "10030012": "No cumple con las condiciones de registro, por favor completa la tarea primero",
+            "10030013": "Error de configuración de inicio de sesión, por favor, contacta con el servicio de atención al cliente",
+            "10030014": "No está dentro del período de tiempo permitido",
+            "10030015": "El miembro no existe",
+            "10030016": "El usuario ha rellenado {0} datos, solicite la retirada y póngase en contacto con el Servicio de Atención al Cliente para solicitar el restablecimiento de la cuenta",
+            "10030017": "No se puede coincidir con el producto, por favor, contacta con el servicio de atención al cliente",
+            "10030018": "Saldo de cuenta insuficiente",
+            "10030019": "La cuenta ha sido desactivada",
+            "10030020": "Cuenta prohibida para operar",
+            "10030021": "Retiro de cuenta prohibido",
+            "10030022": "Error de contraseña de transacción",
+            "10030023": "La cuenta de retiro no está vinculada, por favor, vincula la cuenta de retiro primero",
+            "10030024": "Error de contraseña antigua",
+            "10030027": "Su retiro está restringido. Por favor, póngase en contacto con el servicio de atención al cliente para obtener más detalles",
+            "10030028": "Las puntuaciones crediticias bajas le impiden retirar dinero",
+            "10030030": "No está dentro del período de tiempo permitido",
+            "10030031": "Póngase en contacto con el servicio de atención al cliente para restablecer la tarea de hoy"
+        },
+        "errorHandler": {
+            "InternalError": "Error interno en el motor JavaScript",
+            "ReferenceError": "Objeto no encontrado",
+            "TypeError": "Tipo o objeto incorrecto utilizado",
+            "RangeError": "Parámetro fuera de rango al usar objetos integrados",
+            "SyntaxError": "Error de sintaxis",
+            "EvalError": "Uso incorrecto de Eval",
+            "URIError": "Error URI",
+            "UnknownError": "Desconocido"
+        },
+        "Network": {
+            "timedout": "¡Tiempo de espera de la solicitud! Por favor, inténtalo de nuevo más tarde",
+            "error": "¡Error de red! Por favor, inténtalo de nuevo más tarde"
+        },
+        "request": {
+            "NoMoreData": "No hay más datos",
+            "FileMaxSize": "El tamaño del archivo supera el valor máximo, que es {0}M"
+        },
+        "response": {
+            "loading": "Cargando",
+            "success": "Éxito",
+            "fail": "Fallo",
+            "complete": "Completo"
+        },
+        "page": {
+            "notexist": "Lo siento, la página que estás intentando acceder no existe~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "¿No tienes una cuenta?",
+            "Signup": "Registrarse",
+            "form": {
+                "label": [
+                    "Nombre de usuario/Teléfono",
+                    "Contraseña"
+                ]
+            },
+            "forgotPassword": "¿Has olvidado tu contraseña?",
+            "contactSupport": "Soporte de contacto"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "Nombre de usuario",
+                    "Teléfono",
+                    "Contraseña de transacción",
+                    "Contraseña de inicio de sesión",
+                    "Confirmar contraseña de inicio de sesión",
+                    "Género",
+                    "Código de invitación"
+                ],
+                "rule": {
+                    "Phone": "Teléfono no puede ser inferior a 6 dígitos",
+                    "ConfirmLoginPassword": "Inkonsistente Passwörter",
+                    "TradingPassword": "La longitud de la contraseña de la transacción no puede ser inferior a 6 dígitos",
+                    "LoginPassword": "La longitud de la contraseña de acceso no puede ser inferior a 6 dígitos"
+                }
+            },
+            "agree": "Estoy de acuerdo con"
+        }
+    },
+    "home": {
+        "service": [
+            "Servicio",
+            "Evento",
+            "Retiro",
+            "Depósito",
+            "Términos y Condiciones",
+            "Certificado",
+            "Preguntas Frecuentes",
+            "Acerca de",
+            "VIP"
+        ],
+        "Popularhotels": "Marca de cooperación",
+        "HotelRankings": "Ranking de hoteles",
+        "sign": {
+            "title": "Inició sesión por {0} día",
+            "SignIn": "Iniciar sesión"
+        },
+        "vip": {
+            "title": "@:vip.title",
+            "more": "Ver Más"
+        }
+    },
+    "starting": {
+        "Hi": "Hola",
+        "WelcomeBack": ", bienvenidos a respaldar",
+        "WalletBalance": {
+            "title": "Saldo de la billetera",
+            "tips": "Las ganancias se agregarán aquí"
+        },
+        "FrozenBalance": {
+            "title": "Balance congelado",
+            "tips": "La cantidad congelada se agregará aquí"
+        },
+        "TodaysProfit": {
+            "title": "Ganancia del día",
+            "tips": "Comisión ganada"
+        },
+        "StartOptimization": "Inicio Optimización",
+        "CompletedToday": "Finalizado hoy",
+        "Start": "Iniciar",
+        "Notice": {
+            "title": "Aviso",
+            "date": "Horario de soporte en línea {0} - {1}",
+            "tips": "Por favor, póngase en contacto con el soporte en línea para obtener ayuda"
+        },
+        "TaskDialog": {
+            "title": "Envío de tarea",
+            "TotalAmount": "Cantidad total",
+            "Profit": "Ganancia",
+            "TaskCode": "Código de tarea",
+            "CreatedAt": "Creado en"
+        }
+    },
+    "my": {
+        "InvitationCode": "Código de Invitación",
+        "SignSeq": "Días de entrada consecutivos",
+        "CreditScore": "Puntuación de Crédito",
+        "MyFinancial": {
+            "title": "Mi Financiero",
+            "menu": [
+                "Depósito",
+                "Retirada",
+                "Transacción"
+            ]
+        },
+        "MyDetail": {
+            "title": "Mi Detalle",
+            "menu": [
+                "Información Personal",
+                "Métodos de Pago"
+            ]
+        },
+        "Other": {
+            "title": "Otros",
+            "menu": [
+                "Contáctenos",
+                "Notificaciones",
+                "Cambiar Idioma"
+            ]
+        },
+        "Logout": {
+            "title": "Cerrar Sesión",
+            "content": "¿Estás seguro de que quieres cerrar sesión?"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "Todos",
+            "Pending": "Pendiente",
+            "Frozen": "Congelado",
+            "Completed": "Completado",
+            "Undone": "No realizado"
+        },
+        "TotalAmount": "Cantidad total",
+        "Profit": "Beneficio"
+    },
+    "withdraw": {
+        "tabs": [
+            "Retirar",
+            "Historial"
+        ],
+        "History": {
+            "tabs": [
+                "En revisión",
+                "Éxito",
+                "Rechazado"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "Número de cuenta",
+                "Número de orden",
+                "Dirección",
+                "Cantidad",
+                "Tarifa",
+                "Creado en",
+                "Estado",
+                "Razón"
+            ]
+        },
+        "AccountAmount": "Cantidad en cuenta",
+        "tips": "Recibirás tu retiro dentro de una hora",
+        "form": {
+            "label": [
+                "Cantidad a retirar",
+                "Contraseña de transacción"
+            ],
+            "ALL": "TODOS",
+            "Withdraw": "Enviar"
+        },
+        "WithdrawAccount": "Retirar cuenta",
+        "tradingKind": [
+            "Devolución de dinero",
+            "Deducción",
+            "Recargar",
+            "Retirándose",
+            "Descongelar retiro",
+            "Retiro",
+            "Tarea",
+            "Regreso principal",
+            "Devolución de la comisión",
+            "Devolución de comisión subordinada",
+            "registrarse",
+            "Tasa de tramitación",
+            "Depósito",
+            "Premio",
+            "Salario base",
+            "Asistencia en efectivo",
+            "Bono de inscripción",
+            "Dividendos de materias primas",
+            "Bonificación de tarea",
+            "Otros"
+        ]
+    },
+    "deposit": {
+        "tabs": [
+            "Depósito",
+            "Historial"
+        ],
+        "History": {
+            "tabs": [
+                "Revisión",
+                "Éxito",
+                "Rechazar"
+            ]
+        },
+        "AccountAmount": "Monto de la cuenta",
+        "ContactCustomerService": "Contactar al Servicio al Cliente",
+        "NoCustomerService": "Servicio al Cliente Ocupado",
+        "tips": "Por favor, envía la calificación anterior antes de proceder con la siguiente calificación"
+    },
+    "vip": {
+        "title": "Niveles VIP",
+        "current": "Actual"
+    },
+    "profileItem": {
+        "title": "Modificar información",
+        "menu": [
+            "Modificar información personal",
+            "Nombre de usuario",
+            "Actualizar contraseña",
+            "Actualizar contraseña de transacción"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "Contraseña antigua",
+                    "Contraseña nueva",
+                    "Confirmar nueva contraseña"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "Contraseña antigua",
+                    "Contraseña nueva",
+                    "Confirmar nueva contraseña"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "Métodos de Pago",
+        "tips": "Estimado usuario, por favor complete su dirección ERC20/TRC20. Por favor, no ingrese los detalles de su cuenta bancaria ni su contraseña",
+        "form": {
+            "TransactionPassword": "Contraseña de Transacción",
+            "Address": "Dirección de la Billetera"
+        },
+        "label": [
+            "Nombre del Banco",
+            "Código de Sucursal",
+            "Nombre de la Sucursal",
+            "Tipo de Depósito",
+            "Número de Cuenta",
+            "Titular de la Cuenta"
+        ],
+        "tabs": [
+            "Tarjeta Bancaria",
+            "Red"
+        ],
+        "delete": "Eliminar",
+        "default": "Predeterminado",
+        "create": "Crear",
+        "type": "Tipo de Retiro",
+        "defaultAccount": "Cuenta de Retiro Predeterminada",
+        "deleteMsg": "¿Está seguro de que desea eliminar?"
+    },
+    "gifts": {
+        "title": "Centro de Tarjetas de Regalo",
+        "myPoints": "Mis Puntos",
+        "SelectedGifts": "Regalos Seleccionados",
+        "form": {
+            "label": {
+                "title": "Buscar",
+                "points": "Puntos"
+            }
+        },
+        "redemption": "Redención",
+        "stock": "Existencias",
+        "id": {
+            "redeemPoints": "Canjear los puntos necesarios:",
+            "btn": "Canjear ahora",
+            "title": "Aviso de Compra",
+            "content": "Estimado trabajador, gracias por su participación en el trabajo.\n\nLea los siguientes términos antes de canjear puntos:\n\n[Puntos de trabajo] Después de completar diariamente la optimización de los datos del conjunto de pedidos, los trabajadores pueden ganar 1 punto de regalo, que puede se utilizará para el canje parcial del patrocinio de obsequios.\n[Canje de obsequios] Los trabajadores deben proporcionar información relevante sobre la dirección de envío y el obsequio se enviará sin cargo a todo el mundo dentro de los 14 días. Una vez completado el canje, puede comunicarse con el servicio de atención al cliente para obtener el número de seguimiento y seguir el progreso del regalo. La plataforma no revelará información a terceros.\nNota: Una vez que los puntos se canjean por regalos, no se pueden reembolsar"
+        },
+        "applyDialog": {
+            "title": "Recepción de información",
+            "form": {
+                "consignee": "Destinatario",
+                "area": "Área",
+                "telephone": "Teléfono",
+                "deliveryAddress": "Dirección de entrega"
+            },
+            "btn": "Enviar a"
+        },
+        "records": {
+            "title": "Registros",
+            "status": [
+                "Esperando envío",
+                "Enviado",
+                "Entregado",
+                "Cancelado"
+            ]
+        }
+    }
+}

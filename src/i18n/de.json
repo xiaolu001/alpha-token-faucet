@@ -1,0 +1,481 @@
+{
+    "name": "Name",
+    "tel": "Telefon",
+    "save": "Speichern",
+    "clear": "Klar",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "delete": "Löschen",
+    "loading": "Laden...",
+    "noCoupon": "Keine Coupons",
+    "nameEmpty": "Bitte den Name angeben",
+    "addContact": "Neuen Kontakt hinzufügen",
+    "telInvalid": "Ungültige Telefonnummer",
+    "vanCalendar": {
+        "end": "Ende",
+        "start": "Start",
+        "title": "Kalender",
+        "weekdays": [
+            "So",
+            "Mo",
+            "Di",
+            "Mo",
+            "Do",
+            "Fr",
+            "Sa"
+        ]
+    },
+    "vanCascader": {
+        "select": "Wählen"
+    },
+    "vanPagination": {
+        "prev": "Vorherige",
+        "next": "Nächste"
+    },
+    "vanPullRefresh": {
+        "pulling": "Zum Aktualisieren herunterziehen...",
+        "loosing": "Loslassen zum Aktualisieren..."
+    },
+    "vanSubmitBar": {
+        "label": "Total:"
+    },
+    "vanCoupon": {
+        "unlimited": "Unbegrenzt"
+    },
+    "vanCouponCell": {
+        "title": "Coupon"
+    },
+    "vanCouponList": {
+        "exchange": "Austauschen",
+        "close": "Schließen",
+        "enable": "Verfügbar",
+        "disabled": "Nicht verfügbar",
+        "placeholder": "Couponcode"
+    },
+    "vanAddressEdit": {
+        "area": "Standort",
+        "areaEmpty": "Bitte deinen Ort angeben",
+        "addressEmpty": "Adresse darf nicht leer sein",
+        "addressDetail": "Adresse",
+        "defaultAddress": "Als Standardadresse festgelegen"
+    },
+    "vanAddressList": {
+        "add": "Neue Adresse hinzufügen"
+    },
+    "system": {
+        "terms": "Geschäftsbedingungen",
+        "actions": {
+            "Submit": "Einreichen",
+            "BackToLogin": "Zurück zur Anmeldung",
+            "Register": "Registrieren",
+            "Logout": "Abmelden",
+            "Update": "Aktualisieren",
+            "Taptochange": "Tippen Sie zum Ändern"
+        },
+        "rules": {
+            "isRequired": "Erforderlich",
+            "require": "{0} ist erforderlich",
+            "valid": "{0} ist nicht gültig {0}",
+            "cannotContainBlankStrings": "{0} darf keine leeren Zeichenfolgen enthalten"
+        },
+        "options": {
+            "gender": [
+                "Männlich",
+                "Weiblich"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "base",
+        "login": "Anmelden",
+        "register": "Registrieren",
+        "home": "Zuhause",
+        "service": "Dienst",
+        "starting": "Beginnend",
+        "records": "Aufzeichnungen",
+        "my": "Mein",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "Anforderung fehlgeschlagen! Bitte versuchen Sie es später erneut",
+            "401": "Anmeldesitzung abgelaufen! Bitte melden Sie sich erneut an",
+            "403": "Aktueller Account hat keine Zugriffsberechtigung",
+            "404": "Die Ressource, auf die Sie zugreifen möchten, existiert nicht",
+            "405": "Falsche Anforderungsmethode! Bitte versuchen Sie es später erneut",
+            "408": "Anforderungstimeout! Bitte versuchen Sie es später erneut",
+            "500": "Dienst hat eine Ausnahme festgestell",
+            "990": "Ihr Konto wurde wegen unerledigter Aufgaben für eine lange Zeit eingefroren",
+            "10030008": "Bitte geben Sie den Unterstützungsfonds zurück, bevor Sie eine Barauszahlung beantragen",
+            "10030010": "Einladungscode existiert nicht",
+            "10030011": "Überschritten die maximale Anzahl der Check-in-Zeiten",
+            "10030012": "Nicht den Check-in-Bedingungen entsprechen, bitte erledigen Sie die Aufgabe zuerst",
+            "10030013": "Fehler bei der Anmeldekonfiguration, bitte kontaktieren Sie den Kundenservice",
+            "10030014": "Nicht im erlaubten Zeitraum",
+            "10030015": "Mitglied existiert nicht",
+            "10030016": "Der Benutzer hat {0} Daten eingegeben, bitte beantragen Sie die Rücknahme und wenden Sie sich an den Kundendienst, um die Rücksetzung des Kontos zu beantragen",
+            "10030017": "Produkt kann nicht abgeglichen werden, bitte kontaktieren Sie den Kundenservice",
+            "10030018": "Unzureichendes Kontoguthaben",
+            "10030019": "Konto wurde deaktiviert",
+            "10030020": "Konto darf nicht handeln",
+            "10030021": "Kontoauszahlung untersagt",
+            "10030022": "Fehler im Transaktionspasswort",
+            "10030023": "Das Abhebungskonto ist nicht gebunden, bitte binden Sie zuerst das Abhebungskonto",
+            "10030024": "Fehler im alten Passwort",
+            "10030027": "Ihre Auszahlung ist eingeschränkt. Bitte kontaktieren Sie den Kundenservice für weitere Details",
+            "10030028": "Niedrige Kreditpunktzahlen verhindern das Abheben von Geld",
+            "10030030": "Nicht im erlaubten Zeitraum",
+            "10030031": "Bitte kontaktieren Sie den Kundendienst, um die heutige Aufgabe zurückzusetzen"
+        },
+        "errorHandler": {
+            "InternalError": "Interner Fehler im JavaScript-Engine",
+            "ReferenceError": "Objekt nicht gefunden",
+            "TypeError": "Falscher Typ oder falsches Objekt verwendet",
+            "RangeError": "Parameter außerhalb des Bereichs bei Verwendung von integrierten Objekten",
+            "SyntaxError": "Syntaxfehler",
+            "EvalError": "Falsche Verwendung von Eval",
+            "URIError": "URI-Fehler",
+            "UnknownError": "Unbekannt"
+        },
+        "Network": {
+            "timedout": "Anforderungstimeout! Bitte versuchen Sie es später erneut",
+            "error": "Netzwerkfehler! Bitte versuchen Sie es später erneut"
+        },
+        "request": {
+            "NoMoreData": "Keine weiteren Daten",
+            "FileMaxSize": "Die Dateigröße überschreitet den maximalen Wert, der {0}M beträgt"
+        },
+        "response": {
+            "loading": "Laden",
+            "success": "Erfolg",
+            "fail": "Fehlschlagen",
+            "complete": "Vollständig"
+        },
+        "page": {
+            "notexist": "Entschuldigung, die Seite, auf die Sie zugreifen möchten, existiert nicht~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "Sie haben kein Konto?",
+            "Signup": "Registrieren",
+            "form": {
+                "label": [
+                    "Benutzername/Telefon",
+                    "Passwort"
+                ]
+            },
+            "forgotPassword": "Passwort vergessen?",
+            "contactSupport": "Kontaktieren Sie Support"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "Benutzername",
+                    "Telefon",
+                    "Transaktionspasswort",
+                    "Anmeldepasswort",
+                    "Bestätigen Sie das Anmeldepasswort",
+                    "Geschlecht",
+                    "Einladungscode"
+                ],
+                "rule": {
+                    "Phone": "Telefon darf nicht weniger als 6 Ziffern betragen",
+                    "ConfirmLoginPassword": "Passwortinkonsistenz",
+                    "TradingPassword": "Die Länge des Transaktionspassworts darf nicht weniger als 6 Ziffern betragen",
+                    "LoginPassword": "Die Länge des Anmeldekennworts darf nicht weniger als 6 Ziffern betragen"
+                }
+            },
+            "agree": "Ich stimme zu mit"
+        }
+    },
+    "home": {
+        "service": [
+            "Service",
+            "Veranstaltung",
+            "Abhebung",
+            "Einzahlung",
+            "AGB",
+            "Zertifikat",
+            "FAQs",
+            "Über uns",
+            "VIP"
+        ],
+        "sign": {
+            "title": "Angemeldet für {0} Tag",
+            "SignIn": "Anmelden"
+        },
+        "Popularhotels": "Kooperationsmarke",
+        "HotelRankings": "Hotelrankings",
+        "vip": {
+            "title": "@:vip.title",
+            "more": "Mehr anzeigen"
+        }
+    },
+    "starting": {
+        "Hi": "Hallo",
+        "WelcomeBack": ", willkommen zurück",
+        "WalletBalance": {
+            "title": "Brieftaschenguthaben",
+            "tips": "Gewinne werden hier hinzugefügt"
+        },
+        "FrozenBalance": {
+            "title": "Gefrorenes Gleichgewicht",
+            "tips": "Die eingefrorene Menge wird hier hinzugefügt"
+        },
+        "TodaysProfit": {
+            "title": "Heutiger Gewinn",
+            "tips": "Verdiente Provision"
+        },
+        "StartOptimization": "Start Optimierung",
+        "CompletedToday": "Heute fertiggestellt",
+        "Start": "Start",
+        "Notice": {
+            "title": "Hinweis",
+            "date": "Online-Supportzeiten {0} - {1}",
+            "tips": "Bitte wenden Sie sich für Ihre Hilfe an den Online-Support"
+        },
+        "TaskDialog": {
+            "title": "Aufgabeneinreichung",
+            "TotalAmount": "Gesamtbetrag",
+            "Profit": "Gewinn",
+            "TaskCode": "Aufgabencode",
+            "CreatedAt": "Erstellt am"
+        }
+    },
+    "my": {
+        "InvitationCode": "Einladungscode",
+        "SignSeq": "Konsekutive Anmeldetage",
+        "CreditScore": "Bonitätsprüfung",
+        "MyFinancial": {
+            "title": "Mein Finanzielles",
+            "menu": [
+                "Einzahlung",
+                "Auszahlung",
+                "Transaktion"
+            ]
+        },
+        "MyDetail": {
+            "title": "Mein Detail",
+            "menu": [
+                "Persönliche Informationen",
+                "Zahlungsmethoden"
+            ]
+        },
+        "Other": {
+            "title": "Andere",
+            "menu": [
+                "Kontaktiere uns",
+                "Benachrichtigungen",
+                "Sprache ändern"
+            ]
+        },
+        "Logout": {
+            "title": "Abmelden",
+            "content": "Bist du sicher, dass du dich abmelden möchtest?"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "Alle",
+            "Pending": "Ausstehend",
+            "Frozen": "Eingefroren",
+            "Completed": "Abgeschlossen",
+            "Undone": "Ungemacht"
+        },
+        "TotalAmount": "Gesamtbetrag",
+        "Profit": "Gewinn"
+    },
+    "withdraw": {
+        "tabs": [
+            "Abheben",
+            "Verlauf"
+        ],
+        "History": {
+            "tabs": [
+                "Überprüfung",
+                "Erfolg",
+                "Ablehnen"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "Kontonummer",
+                "Bestellnummer",
+                "Adresse",
+                "Betrag",
+                "Gebühr",
+                "Erstellt am",
+                "Status",
+                "Grund"
+            ]
+        },
+        "AccountAmount": "Kontobetrag",
+        "tips": "Du erhältst deine Auszahlung innerhalb einer Stunde",
+        "form": {
+            "label": [
+                "Abhebebetrag",
+                "Transaktionspasswort"
+            ],
+            "ALL": "ALLE",
+            "Withdraw": "Einreichen"
+        },
+        "WithdrawAccount": "Konto abheben",
+        "tradingKind": [
+            "Cashback",
+            "Abzug",
+            "Aufladen",
+            "Zurückziehen",
+            "Auszahlung auftauen",
+            "Rückzug",
+            "Aufgabe",
+            "Hauptrendite",
+            "Kommissionsrückgabe",
+            "Untergeordnete Provisionsrückgabe",
+            "einchecken",
+            "Bearbeitungsgebühr",
+            "Kaution",
+            "Belohnen",
+            "Grundgehalt",
+            "Bargeldhilfe",
+            "Anmeldebonus",
+            "Rohstoffdividenden",
+            "Aufgabenbonus",
+            "Andere"
+        ]
+    },
+    "deposit": {
+        "tabs": [
+            "Einzahlung",
+            "Verlauf"
+        ],
+        "History": {
+            "tabs": [
+                "Überprüfung",
+                "Erfolg",
+                "Ablehnen"
+            ]
+        },
+        "AccountAmount": "Kontobetrag",
+        "ContactCustomerService": "Kundenservice Kontaktieren",
+        "NoCustomerService": "Kundenservice Besetzt",
+        "tips": "Bitte reichen Sie die vorherige Bewertung ein, bevor Sie mit der nächsten Bewertung fortfahren!"
+    },
+    "vip": {
+        "title": "VIP-Stufen",
+        "current": "Aktuell"
+    },
+    "profileItem": {
+        "title": "Informationen ändern",
+        "menu": [
+            "Persönliche Informationen ändern",
+            "Benutzername",
+            "Passwort aktualisieren",
+            "Transaktionspasswort aktualisieren"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "Altes Passwort",
+                    "Neues Passwort",
+                    "Neues Passwort bestätigen"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "Altes Passwort",
+                    "Neues Passwort",
+                    "Neues Passwort bestätigen"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "Zahlungsmethoden",
+        "tips": "Liebe Benutzerin, bitte geben Sie Ihre ERC20/TRC20-Adresse ein. Geben Sie bitte nicht Ihre Bankkontodaten und Ihr Passwort ein",
+        "form": {
+            "TransactionPassword": "Transaktionspasswort",
+            "Address": "Wallet-Adresse"
+        },
+        "label": [
+            "Bankname",
+            "Filialcode",
+            "Filialname",
+            "Einzahlungsart",
+            "Kontonummer",
+            "Kontoinhaber"
+        ],
+        "tabs": [
+            "Bankkarte",
+            "Netzwerk"
+        ],
+        "delete": "Löschen",
+        "default": "Standard",
+        "create": "Erstellen",
+        "type": "Abhebungstyp",
+        "defaultAccount": "Standardabhebungskonto",
+        "deleteMsg": "Sind Sie sicher, dass Sie löschen möchten?"
+    },
+    "gifts": {
+        "title": "Geschenkkartenzentrum",
+        "myPoints": "Meine Punkte",
+        "SelectedGifts": "Ausgewählte Geschenke",
+        "form": {
+            "label": {
+                "title": "Suche",
+                "points": "Punkte"
+            }
+        },
+        "redemption": "Rückzahlung",
+        "stock": "Bestand",
+        "id": {
+            "redeemPoints": "Einlösen der erforderlichen Punkte:",
+            "btn": "Jetzt einlösen",
+            "title": "Kaufbenachrichtigung",
+            "content": "Sehr geehrter Mitarbeiter, vielen Dank für Ihre Teilnahme an der Arbeit.\n\nBitte lesen Sie die folgenden Bedingungen, bevor Sie Punkte einlösen:\n\n[Arbeitspunkte] Nach dem täglichen Abschluss der Optimierung der Auftragsdaten können Mitarbeiter 1 Geschenkpunkt verdienen kann für die teilweise Einlösung von Geschenksponsoring verwendet werden.\n[Geschenkeinlösung] Mitarbeiter müssen relevante Lieferadresseninformationen angeben und das Geschenk wird innerhalb von 14 Tagen weltweit kostenlos versendet. Nachdem die Einlösung abgeschlossen ist, können Sie sich an den Kundendienst wenden, um die Sendungsverfolgungsnummer zu erhalten und den Fortschritt des Geschenks zu verfolgen. Die Plattform gibt keine Informationen an Dritte weiter.\nHinweis: Sobald die Punkte gegen Geschenke eingelöst wurden, können sie nicht zurückerstattet werden"
+        },
+        "applyDialog": {
+            "title": "Empfangsinformationen",
+            "form": {
+                "consignee": "Empfänger",
+                "area": "Bereich",
+                "telephone": "Telefon",
+                "deliveryAddress": "Lieferadresse"
+            },
+            "btn": "Absenden"
+        },
+        "records": {
+            "title": "Aufzeichnungen",
+            "status": [
+                "Warten auf Versand",
+                "Versandt",
+                "Geliefert",
+                "Storniert"
+            ]
+        }
+    }
+}

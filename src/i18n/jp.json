@@ -1,0 +1,481 @@
+{
+    "name": "お名前",
+    "tel": "電話番号",
+    "save": "セーブ",
+    "clear": "クリア",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "delete": "削除",
+    "loading": "読み込み中...",
+    "noCoupon": "クーポンはありません",
+    "nameEmpty": "名前を入力してください",
+    "addContact": "連絡先を追加",
+    "telInvalid": "正しい電話番号を入力してください",
+    "vanCalendar": {
+        "end": "終了",
+        "start": "開始",
+        "title": "日付選択",
+        "weekdays": [
+            "日",
+            "月",
+            "火",
+            "水",
+            "木",
+            "金",
+            "土"
+        ]
+    },
+    "vanCascader": {
+        "select": "選択する"
+    },
+    "vanPagination": {
+        "prev": "前のページ",
+        "next": "次のページ"
+    },
+    "vanPullRefresh": {
+        "pulling": "プルダウンして更新...",
+        "loosing": "リリース時に更新..."
+    },
+    "vanSubmitBar": {
+        "label": "合計:"
+    },
+    "vanCoupon": {
+        "unlimited": "無制限"
+    },
+    "vanCouponCell": {
+        "title": "クーポン"
+    },
+    "vanCouponList": {
+        "exchange": "両替",
+        "close": "使用禁止",
+        "enable": "利用可能",
+        "disabled": "利用できません",
+        "placeholder": "割引コードを入力してください"
+    },
+    "vanAddressEdit": {
+        "area": "地域",
+        "areaEmpty": "地域を選択してください",
+        "addressEmpty": "詳しい住所を入力してください",
+        "addressDetail": "詳しい住所",
+        "defaultAddress": "デフォルトの住所に設定"
+    },
+    "vanAddressList": {
+        "add": "住所を追加"
+    },
+    "system": {
+        "terms": "利用規約",
+        "actions": {
+            "Submit": "送信",
+            "BackToLogin": "ログインに戻る",
+            "Register": "登録",
+            "Logout": "ログアウト",
+            "Update": "更新",
+            "Taptochange": "変更するにはタップ"
+        },
+        "rules": {
+            "isRequired": "必須",
+            "require": "{0} は必須です",
+            "valid": "{0} は有効な {0} ではありません",
+            "cannotContainBlankStrings": "{0} には空白文字列を含めることはできません"
+        },
+        "options": {
+            "gender": [
+                "男性",
+                "女性"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "base",
+        "login": "ログイン",
+        "register": "登録",
+        "home": "ホーム",
+        "service": "サービス",
+        "starting": "スタート",
+        "records": "記録",
+        "my": "マイ",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "リクエストが失敗しました。後でもう一度お試しください。",
+            "401": "ログインセッションが期限切れです。もう一度ログインしてください。",
+            "403": "現在のアカウントにはアクセス権限がありません。",
+            "404": "アクセスしようとしているリソースが存在しません。",
+            "405": "不正なリクエストメソッドです。後でもう一度お試しください。",
+            "408": "リクエストがタイムアウトしました。後でもう一度お試しください。",
+            "500": "サービスで例外が発生しました。",
+            "990": "長期間未完了のタスクがあるため、アカウントが凍結されました。",
+            "10030008": "現金引き出しを申請する前に、支援金を返却してください",
+            "10030010": "招待コードが存在しません",
+            "10030011": "チェックイン回数が最大回数を超えました",
+            "10030012": "チェックインの条件を満たしていません。まずタスクを完了してください",
+            "10030013": "サインインの設定エラーが発生しました。カスタマーサービスにお問い合わせください",
+            "10030014": "許可された時間帯内にありません",
+            "10030015": "メンバーが存在しません",
+            "10030016": "ユーザーが{0}個のデータを入力したため、退会を申請し、カスタマーサービスに連絡してアカウントのリセットを申請してください",
+            "10030017": "商品が一致しません。カスタマーサービスにお問い合わせください",
+            "10030018": "口座残高が不足しています",
+            "10030019": "アカウントは無効になっています",
+            "10030020": "アカウントの取引が禁止されています",
+            "10030021": "アカウントの引き出しが禁止されています",
+            "10030022": "取引パスワードエラー",
+            "10030023": "引き出し口座がバインドされていません。先に引き出し口座をバインドしてください",
+            "10030024": "古いパスワードエラー",
+            "10030027": "出金は制限されています。詳細についてはカスタマーサービスにお問い合わせください。",
+            "10030028": "低いクレジットスコアのため、お金を引き出すことができません",
+            "10030030": "許可された時間帯内にありません",
+            "10030031": "本日のタスクをリセットするには、カスタマーサービスにご連絡ください"
+        },
+        "errorHandler": {
+            "InternalError": "JavaScriptエンジンの内部エラー",
+            "ReferenceError": "オブジェクトが見つかりません",
+            "TypeError": "不正なタイプまたはオブジェクトの使用",
+            "RangeError": "組み込みオブジェクトを使用するときのパラメータが範囲外です",
+            "SyntaxError": "構文エラー",
+            "EvalError": "Evalの不正な使用",
+            "URIError": "URIエラー",
+            "UnknownError": "不明なエラー"
+        },
+        "Network": {
+            "timedout": "リクエストがタイムアウトしました！後で再試行してください。",
+            "error": "ネットワークエラーが発生しました！後で再試行してください。"
+        },
+        "request": {
+            "NoMoreData": "データはもうありません",
+            "FileMaxSize": "ファイルサイズが最大値を超えています。この値は {0}M"
+        },
+        "response": {
+            "loading": "ロード",
+            "success": "成功",
+            "fail": "失敗",
+            "complete": "完了"
+        },
+        "page": {
+            "notexist": "申し訳ありません、アクセスしようとしたページは存在しません~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "アカウントがありませんか？",
+            "Signup": "サインアップ",
+            "form": {
+                "label": [
+                    "ユーザー名/電話番号",
+                    "パスワード"
+                ]
+            },
+            "forgotPassword": "パスワードをお忘れですか？",
+            "contactSupport": "サポート問い合わせ先"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "ユーザー名",
+                    "電話番号",
+                    "取引パスワード",
+                    "ログインパスワード",
+                    "ログインパスワードの確認",
+                    "性別",
+                    "招待コード"
+                ],
+                "rule": {
+                    "Phone": "電話番号長さは6桁以下にはできない",
+                    "ConfirmLoginPassword": "一貫性のないパスワード",
+                    "TradingPassword": "取引パスワードの長さは6桁以下にはできません",
+                    "LoginPassword": "ログインパスワードの長さは6桁以下にはできません"
+                }
+            },
+            "agree": "私は同意します"
+        }
+    },
+    "home": {
+        "service": [
+            "サービス",
+            "イベント",
+            "出金",
+            "入金",
+            "利用規約",
+            "証明書",
+            "よくある質問",
+            "会社案内",
+            "VIP"
+        ],
+        "sign": {
+            "title": "{0} 日間サインイン済み",
+            "SignIn": "サインイン"
+        },
+        "Popularhotels": "協力ブランド",
+        "HotelRankings": "ホテルランキング",
+        "vip": {
+            "title": "@:vip.title",
+            "more": "詳細を表示"
+        }
+    },
+    "starting": {
+        "Hi": "こんにちは",
+        "WelcomeBack": "、よくぞお戻りになった",
+        "WalletBalance": {
+            "title": "ウォレット残高",
+            "tips": "利益はこちらに追加されます"
+        },
+        "FrozenBalance": {
+            "title": "凍結残高",
+            "tips": "ここに冷凍分が加算されます"
+        },
+        "TodaysProfit": {
+            "title": "今日の利益",
+            "tips": "獲得した手数料"
+        },
+        "StartOptimization": "最適化を開始",
+        "CompletedToday": "本日完成",
+        "Start": "スタート",
+        "Notice": {
+            "title": "お知らせ",
+            "date": "オンラインサポート時間 {0} - {1}",
+            "tips": "お助けが必要な場合はオンラインサポートにご連絡ください"
+        },
+        "TaskDialog": {
+            "title": "タスク提出",
+            "TotalAmount": "合計金額",
+            "Profit": "利益",
+            "TaskCode": "タスクコード",
+            "CreatedAt": "作成時間"
+        }
+    },
+    "my": {
+        "InvitationCode": "招待コード",
+        "SignSeq": "連続サインイン日",
+        "CreditScore": "信用スコア",
+        "MyFinancial": {
+            "title": "私の財務",
+            "menu": [
+                "入金",
+                "出金",
+                "取引"
+            ]
+        },
+        "MyDetail": {
+            "title": "私の詳細",
+            "menu": [
+                "個人情報",
+                "支払方法"
+            ]
+        },
+        "Other": {
+            "title": "その他",
+            "menu": [
+                "お問い合わせ",
+                "通知",
+                "言語の変更"
+            ]
+        },
+        "Logout": {
+            "title": "ログアウト",
+            "content": "本当にログアウトしますか？"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "すべて",
+            "Pending": "保留中",
+            "Frozen": "凍結",
+            "Completed": "完了",
+            "Undone": "未完了"
+        },
+        "TotalAmount": "合計金額",
+        "Profit": "利益"
+    },
+    "withdraw": {
+        "tabs": [
+            "出金",
+            "履歴"
+        ],
+        "History": {
+            "tabs": [
+                "審査中",
+                "成功",
+                "却下"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "アカウント",
+                "注文番号",
+                "住所",
+                "金額",
+                "費用",
+                "作成時間",
+                "ステータス",
+                "理由"
+            ]
+        },
+        "AccountAmount": "口座残高",
+        "tips": "1時間以内に出金が行われます",
+        "form": {
+            "label": [
+                "出金額",
+                "取引パスワード"
+            ],
+            "ALL": "すべて",
+            "Withdraw": "提出"
+        },
+        "WithdrawAccount": "口座の出金",
+        "tradingKind": [
+            "キャッシュバック",
+            "控除",
+            "リチャージ",
+            "撤退",
+            "出金の凍結解除",
+            "撤退",
+            "タスク",
+            "元本返還",
+            "コミッションリターン",
+            "下位コミッションの返還",
+            "チェックイン",
+            "手数料",
+            "デポジット",
+            "褒美",
+            "基本給",
+            "現金援助",
+            "登録ボーナス",
+            "商品配当",
+            "タスクボーナス",
+            "その他"
+        ]
+    },
+    "deposit": {
+        "tabs": [
+            "入金",
+            "履歴"
+        ],
+        "History": {
+            "tabs": [
+                "審査中",
+                "成功",
+                "却下"
+            ]
+        },
+        "AccountAmount": "口座残高",
+        "ContactCustomerService": "カスタマーサービスに連絡",
+        "NoCustomerService": "カスタマーサービスがビジー",
+        "tips": "次の評価を進める前に、前の評価を提出してください。"
+    },
+    "vip": {
+        "title": "Vip レベル",
+        "current": "現在の "
+    },
+    "profileItem": {
+        "title": "情報の変更",
+        "menu": [
+            "個人情報の変更",
+            "ユーザー名",
+            "パスワードの更新",
+            "取引パスワードの更新"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "古いパスワード",
+                    "新しいパスワード",
+                    "新しいパスワードの確認"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "古いパスワード",
+                    "新しいパスワード",
+                    "新しいパスワードの確認"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "支払方法",
+        "tips": "お客様へ、ERC20/TRC20アドレスを入力してください。銀行口座の詳細やパスワードは入力しないでください",
+        "form": {
+            "TransactionPassword": "取引パスワード",
+            "Address": "ウォレットアドレス"
+        },
+        "label": [
+            "銀行名",
+            "支店コード",
+            "支店名",
+            "入金タイプ",
+            "口座番号",
+            "口座名義人"
+        ],
+        "tabs": [
+            "銀行カード",
+            "ネットワーク"
+        ],
+        "delete": "削除",
+        "default": "デフォルト",
+        "create": "作成",
+        "type": "引き出しタイプ",
+        "defaultAccount": "デフォルト引き出し口座",
+        "deleteMsg": "本当に削除してもよろしいですか？"
+    },
+    "gifts": {
+        "title": "ギフトカードセンター",
+        "myPoints": "マイポイント",
+        "SelectedGifts": "選択されたギフト",
+        "form": {
+            "label": {
+                "title": "検索",
+                "points": "ポイント"
+            }
+        },
+        "redemption": "償還",
+        "stock": "ストック",
+        "id": {
+            "redeemPoints": "必要なポイントを交換する：",
+            "btn": "今すぐ交換",
+            "title": "購入のお知らせ",
+            "content": "作業員の皆様、作業にご参加いただきありがとうございます。\n\nポイントを引き換える前に次の規約をお読みください:\n\n[作業ポイント] 注文セット データの最適化が毎日完了すると、作業者は 1 ギフト ポイントを獲得できます。 ギフト スポンサーシップの一部の引き換えに使用できます。\n[ギフトの引き換え] 従業員は関連する配送先住所情報を提供する必要があります。ギフトは 14 日以内に世界中に無料で発送されます。 引き換えが完了したら、カスタマー サービスに連絡して、ギフトの進行状況を追跡するための追跡番号を取得できます。 プラットフォームが第三者に情報を開示することはありません。\n注: ポイントをギフトと引き換えると、返金することはできません。"
+        },
+        "applyDialog": {
+            "title": "情報受信",
+            "form": {
+                "consignee": "受取人",
+                "area": "エリア",
+                "telephone": "電話番号",
+                "deliveryAddress": "配送先住所"
+            },
+            "btn": "提出する"
+        },
+        "records": {
+            "title": "記録",
+            "status": [
+                "未発送",
+                "発送済み",
+                "配達済み",
+                "キャンセル"
+            ]
+        }
+    }
+}

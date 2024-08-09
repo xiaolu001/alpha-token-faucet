@@ -1,0 +1,481 @@
+{
+    "name": "Name",
+    "tel": "Phone",
+    "save": "Save",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "noCoupon": "No coupons",
+    "nameEmpty": "Please fill in the name",
+    "addContact": "Add contact",
+    "telInvalid": "Malformed phone number",
+    "vanCalendar": {
+        "end": "End",
+        "start": "Start",
+        "title": "Calendar",
+        "weekdays": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ]
+    },
+    "vanCascader": {
+        "select": "Select"
+    },
+    "vanPagination": {
+        "prev": "Previous",
+        "next": "Next"
+    },
+    "vanPullRefresh": {
+        "pulling": "Pull to refresh...",
+        "loosing": "Loose to refresh..."
+    },
+    "vanSubmitBar": {
+        "label": "Total:"
+    },
+    "vanCoupon": {
+        "unlimited": "Unlimited"
+    },
+    "vanCouponCell": {
+        "title": "Coupon"
+    },
+    "vanCouponList": {
+        "exchange": "Exchange",
+        "close": "Close",
+        "enable": "Available",
+        "disabled": "Unavailable",
+        "placeholder": "Coupon code"
+    },
+    "vanAddressEdit": {
+        "area": "Area",
+        "areaEmpty": "Please select a receiving area",
+        "addressEmpty": "Address can not be empty",
+        "addressDetail": "Address",
+        "defaultAddress": "Set as the default address"
+    },
+    "vanAddressList": {
+        "add": "Add new address"
+    },
+    "system": {
+        "terms": "Zasady i warunki",
+        "actions": {
+            "Submit": "Prześlij",
+            "BackToLogin": "Powrót do logowania",
+            "Register": "Rejestr",
+            "Logout": "Wylogowanie",
+            "Update": "Aktualizacja",
+            "Taptochange": "Stuknij, aby zmienić"
+        },
+        "rules": {
+            "isRequired": "Wymagane",
+            "require": "{0} jest wymagany",
+            "valid": "{0} nie jest prawidłowy {0}",
+            "cannotContainBlankStrings": "{0} nie może zawierać pustych ciągów"
+        },
+        "options": {
+            "gender": [
+                "Mężczyzna",
+                "Kobieta"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "baza",
+        "login": "Logowanie",
+        "register": "Rejestr",
+        "home": "Dom",
+        "service": "Usługa",
+        "starting": "Rozpoczęcie",
+        "records": "Zapisy",
+        "my": "Mój",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "Żądanie nie powiodło się! Spróbuj ponownie później",
+            "401": "Sesja logowania wygasła! Zaloguj się ponownie",
+            "403": "Bieżące konto nie ma uprawnień dostępu",
+            "404": "Zasób, do którego próbujesz uzyskać dostęp, nie istnieje",
+            "405": "Nieprawidłowa metoda żądania! Spróbuj ponownie później",
+            "408": "Upłynął limit czasu żądania! Spróbuj ponownie później",
+            "500": "Usługa napotkała wyjątek",
+            "990": "Twoje konto zostało zamrożone z powodu nieukończonych zadań przez długi czas",
+            "10030008": "Przed złożeniem wniosku o wypłatę gotówki należy zwrócić fundusz pomocowy",
+            "10030010": "Kod zaproszenia nie istnieje",
+            "10030011": "Przekroczono maksymalną liczbę odpraw",
+            "10030012": "Nie spełniasz warunków odprawy, najpierw wykonaj zadanie",
+            "10030013": "Błąd konfiguracji logowania, skontaktuj się z obsługą klienta",
+            "10030014": "Nie w dozwolonym okresie czasu",
+            "10030015": "Członek nie istnieje",
+            "10030016": "Użytkownik wprowadził {0} danych, prosimy o złożenie wniosku o wypłatę i skontaktowanie się z Działem Obsługi Klienta w celu złożenia wniosku o zresetowanie konta",
+            "10030017": "Nie można dopasować produktu, prosimy o kontakt z obsługą klienta",
+            "10030018": "Niewystarczające saldo konta",
+            "10030019": "Konto zostało wyłączone",
+            "10030020": "Zakaz handlu na koncie",
+            "10030021": "Wypłata z konta zabroniona",
+            "10030022": "Błąd hasła transakcji",
+            "10030023": "Konto wypłaty nie jest powiązane, należy najpierw powiązać konto wypłaty",
+            "10030024": "Błąd starego hasła",
+            "10030027": "Wypłata jest ograniczona. Skontaktuj się z obsługą klienta, aby uzyskać więcej informacji",
+            "10030028": "Niska ocena kredytowa uniemożliwia pobranie pieniędzy",
+            "10030030": "Nie w dozwolonym okresie czasu",
+            "10030031": "Skontaktuj się z obsługą klienta, aby zresetować dzisiejsze zadanie"
+        },
+        "errorHandler": {
+            "InternalError": "Błąd wewnętrzny w silniku JavaScript",
+            "ReferenceError": "Nie znaleziono obiektu",
+            "TypeError": "Użyto nieprawidłowego typu lub obiektu",
+            "RangeError": "Parametr poza zakresem podczas korzystania z wbudowanych obiektów",
+            "SyntaxError": "Błąd składni",
+            "EvalError": "Nieprawidłowe użycie funkcji Eval",
+            "URIError": "Błąd URI",
+            "UnknownError": "Nieznany"
+        },
+        "Network": {
+            "timedout": "Request timed out! Spróbuj ponownie później",
+            "error": "Błąd sieci! Spróbuj ponownie później"
+        },
+        "request": {
+            "NoMoreData": "Nie ma więcej danych",
+            "FileMaxSize": "Rozmiar pliku przekracza maksymalną wartość, która wynosi {0} M"
+        },
+        "response": {
+            "loading": "Loading",
+            "success": "Success",
+            "fail": "Fail",
+            "complete": "Complete"
+        },
+        "page": {
+            "notexist": "Przepraszamy, strona, do której próbujesz uzyskać dostęp, nie istnieje~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "Nie masz konta?",
+            "Signup": "Zarejestruj się",
+            "form": {
+                "label": [
+                    "Nazwa użytkownika/telefon",
+                    "Hasło"
+                ]
+            },
+            "forgotPassword": "Zapomniałeś hasła?",
+            "contactSupport": "Skontaktuj się z pomocą techniczną"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "Nazwa użytkownika",
+                    "Telefon",
+                    "Hasło transakcji",
+                    "Hasło logowania",
+                    "Potwierdź hasło logowania",
+                    "Płeć",
+                    "Kod zaproszenia"
+                ],
+                "rule": {
+                    "Phone": "Telefon nie może być krótsza niż 6 cyfr",
+                    "ConfirmLoginPassword": "Niespójne hasła",
+                    "TradingPassword": "Długość hasła transakcji nie może być krótsza niż 6 cyfr",
+                    "LoginPassword": "Długość hasła logowania nie może być krótsza niż 6 cyfr"
+                }
+            },
+            "agree": "Zgadzam się z"
+        }
+    },
+    "home": {
+        "service": [
+            "SerUsługavice",
+            "Wydarzenie",
+            "Wycofanie",
+            "Wycofanie",
+            "T & C",
+            "Certyfikat",
+            "FAQs",
+            "Około",
+            "VIP"
+        ],
+        "sign": {
+            "title": "Zarejestrowano na {0} dni",
+            "SignIn": "Zaloguj się"
+        },
+        "Popularhotels": "Marka współpracy",
+        "HotelRankings": "Ranking hoteli",
+        "vip": {
+            "title": "@:vip.title",
+            "more": "Zobacz więcej"
+        }
+    },
+    "starting": {
+        "Hi": "Cześć",
+        "WelcomeBack": ", zapraszamy ponownie",
+        "WalletBalance": {
+            "title": "Saldo portfela",
+            "tips": "Zyski zostaną dodane tutaj"
+        },
+        "FrozenBalance": {
+            "title": "Zamrożona równowaga",
+            "tips": "Zamrożona ilość zostanie dodana tutaj"
+        },
+        "TodaysProfit": {
+            "title": "Dzisiejszy zysk",
+            "tips": "Zarobiona prowizja"
+        },
+        "StartOptimization": "Rozpoczęcie optymalizacji",
+        "CompletedToday": "Ukończono dzisiaj",
+        "Start": "Rozpoczęcie",
+        "Notice": {
+            "title": "Uwaga",
+            "date": "Godziny wsparcia online {0} - {1}",
+            "tips": "Prosimy o kontakt z pomocą online w celu uzyskania pomocy"
+        },
+        "TaskDialog": {
+            "title": "Zgłoszenie zadania",
+            "TotalAmount": "Całkowita kwota",
+            "Profit": "Zysk",
+            "TaskCode": "Kod zadania",
+            "CreatedAt": "Utworzono w"
+        }
+    },
+    "my": {
+        "InvitationCode": "Kod zaproszenia",
+        "SignSeq": "Kolejne dni logowania",
+        "CreditScore": "Ocena kredytowa",
+        "MyFinancial": {
+            "title": "Moje finanse",
+            "menu": [
+                "Wpłata",
+                "Wypłata",
+                "Transakcja"
+            ]
+        },
+        "MyDetail": {
+            "title": "Mój szczegół",
+            "menu": [
+                "Dane osobowe",
+                "Metody płatności"
+            ]
+        },
+        "Other": {
+            "title": "Inne",
+            "menu": [
+                "Skontaktuj się z nami",
+                "Powiadomienia",
+                "Zmień język"
+            ]
+        },
+        "Logout": {
+            "title": "Wylogowanie",
+            "content": "Czy na pewno chcesz się wylogować?"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "Wszystkie",
+            "Pending": "W toku",
+            "Frozen": "Zamrożony",
+            "Completed": "Zakończono",
+            "Undone": "Cofnięty"
+        },
+        "TotalAmount": "Całkowita kwota",
+        "Profit": "Zysk"
+    },
+    "withdraw": {
+        "tabs": [
+            "Wycofaj",
+            "Historia"
+        ],
+        "History": {
+            "tabs": [
+                "Weryfikacja",
+                "Sukces",
+                "Odrzucenie"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "Numer konta",
+                "Nr zamówienia",
+                "Adres",
+                "Kwota",
+                "Opłata",
+                "Utworzono w",
+                "Status",
+                "Powód"
+            ]
+        },
+        "AccountAmount": "Kwota konta",
+        "tips": "Wypłatę otrzymasz w ciągu godziny ",
+        "form": {
+            "label": [
+                "Kwota wypłaty",
+                "Hasło transakcji"
+            ],
+            "ALL": "WSZYSTKO",
+            "Withdraw": "Przedkładać"
+        },
+        "WithdrawAccount": "Wycofaj konto",
+        "tradingKind": [
+            "Zwrot gotówki",
+            "Odliczenie",
+            "Naładuj",
+            "Wycofanie się",
+            "Odmrożenie wypłaty",
+            "Wycofanie",
+            "Zadanie",
+            "Główny zwrot",
+            "Zwrot Komisji",
+            "Zwrot prowizji podrzędnej",
+            "zameldować się",
+            "Opłata manipulacyjna",
+            "Depozyt",
+            "Nagroda",
+            "Wynagrodzenie podstawowe",
+            "Pomoc gotówkowa",
+            "Bonus rejestracyjny",
+            "Dywidendy towarowe",
+            "Bonus za zadanie",
+            "Inni"
+        ]
+    },
+    "deposit": {
+        "tabs": [
+            "Depozyt",
+            "Historia"
+        ],
+        "History": {
+            "tabs": [
+                "Przegląd",
+                "Sukces",
+                "Odrzucić"
+            ]
+        },
+        "AccountAmount": "Kwota konta",
+        "ContactCustomerService": "Kontakt z działem obsługi klienta",
+        "NoCustomerService": "Zapracowana obsługa klienta",
+        "tips": "Prosimy o przesłanie poprzedniej oceny przed przejściem do następnej!"
+    },
+    "vip": {
+        "title": "Poziomy VIP",
+        "current": "Aktualny"
+    },
+    "profileItem": {
+        "title": "Modyfikowanie informacji",
+        "menu": [
+            "Modyfikuj dane osobowe",
+            "Nazwa użytkownika",
+            "Aktualizuj hasło",
+            "Aktualizuj hasło do transakcji"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "Stare hasło",
+                    "Nowe hasło",
+                    "Potwierdź nowe hasło"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "Stare hasło",
+                    "Nowe hasło",
+                    "Potwierdź nowe hasło"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "Metody Płatności",
+        "tips": "Drogi użytkowniku, proszę wypełnić swoje adresy ERC20/TRC20. Proszę nie podawać szczegółów swojego konta bankowego i hasła",
+        "form": {
+            "TransactionPassword": "Hasło Transakcji",
+            "Address": "Adres Portfela"
+        },
+        "label": [
+            "Nazwa Banku",
+            "Kod Oddziału",
+            "Nazwa Oddziału",
+            "Typ Depozytu",
+            "Numer Konta",
+            "Właściciel Konta"
+        ],
+        "tabs": [
+            "Karta Bankowa",
+            "Sieć"
+        ],
+        "delete": "Usuń",
+        "default": "Domyślny",
+        "create": "Utwórz",
+        "type": "Typ Wypłaty",
+        "defaultAccount": "Domyślne Konto Wypłat",
+        "deleteMsg": "Czy na pewno chcesz usunąć?"
+    },
+    "gifts": {
+        "title": "Centrum kart upominkowych",
+        "myPoints": "Moje punkty",
+        "SelectedGifts": "Wybrane prezenty",
+        "form": {
+            "label": {
+                "title": "Wyszukiwanie",
+                "points": "Punkty"
+            }
+        },
+        "redemption": "Odkupienie",
+        "stock": "Magazyn",
+        "id": {
+            "redeemPoints": "Wymień wymagane punkty:",
+            "btn": "Wymień teraz",
+            "title": "Informacja o zakupie",
+            "content": "Drogi pracowniku, dziękujemy za udział w pracy.\n\nPrzed wymianą punktów prosimy o zapoznanie się z poniższymi warunkami:\n\n[Punkty pracy] Po codziennym zakończeniu optymalizacji danych zestawu zamówień pracownicy mogą zdobyć 1 punkt upominkowy, który może można wykorzystać do częściowej realizacji sponsorowanego prezentu.\n[Wykorzystanie prezentu] Pracownicy muszą podać odpowiednie dane adresowe do wysyłki, a prezent zostanie wysłany bezpłatnie na cały świat w ciągu 14 dni. Po zakończeniu realizacji możesz skontaktować się z obsługą klienta, aby uzyskać numer śledzenia umożliwiający śledzenie postępu prezentu. Platforma nie udostępnia informacji osobom trzecim.\nUwaga: punkty wymienione na prezenty nie podlegają zwrotowi"
+        },
+        "applyDialog": {
+            "title": "Otrzymywanie informacji",
+            "form": {
+                "consignee": "Odbiorca",
+                "area": "Obszar",
+                "telephone": "Telefon",
+                "deliveryAddress": "Adres dostawy"
+            },
+            "btn": "Prześlij"
+        },
+        "records": {
+            "title": "Rekordy",
+            "status": [
+                "Oczekujące na wysyłkę",
+                "Wysłane",
+                "Dostarczone",
+                "Anulowane"
+            ]
+        }
+    }
+}

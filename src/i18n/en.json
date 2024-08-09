@@ -1,0 +1,481 @@
+{
+    "name": "Name",
+    "tel": "Phone",
+    "save": "Save",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "noCoupon": "No coupons",
+    "nameEmpty": "Please fill in the name",
+    "addContact": "Add contact",
+    "telInvalid": "Malformed phone number",
+    "vanCalendar": {
+        "end": "End",
+        "start": "Start",
+        "title": "Calendar",
+        "weekdays": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ]
+    },
+    "vanCascader": {
+        "select": "Select"
+    },
+    "vanPagination": {
+        "prev": "Previous",
+        "next": "Next"
+    },
+    "vanPullRefresh": {
+        "pulling": "Pull to refresh...",
+        "loosing": "Loose to refresh..."
+    },
+    "vanSubmitBar": {
+        "label": "Total:"
+    },
+    "vanCoupon": {
+        "unlimited": "Unlimited"
+    },
+    "vanCouponCell": {
+        "title": "Coupon"
+    },
+    "vanCouponList": {
+        "exchange": "Exchange",
+        "close": "Close",
+        "enable": "Available",
+        "disabled": "Unavailable",
+        "placeholder": "Coupon code"
+    },
+    "vanAddressEdit": {
+        "area": "Area",
+        "areaEmpty": "Please select a receiving area",
+        "addressEmpty": "Address can not be empty",
+        "addressDetail": "Address",
+        "defaultAddress": "Set as the default address"
+    },
+    "vanAddressList": {
+        "add": "Add new address"
+    },
+    "system": {
+        "terms": "Terms and Conditions",
+        "actions": {
+            "Submit": "Submit",
+            "BackToLogin": "Back to Login",
+            "Register": "Signup",
+            "Logout": "Logout",
+            "Update": "Update",
+            "Taptochange": "Tap to change"
+        },
+        "rules": {
+            "isRequired": "Required",
+            "require": "{name} is required",
+            "valid": "{name} is not a valid {name}",
+            "cannotContainBlankStrings": "{name} cannot contain blank strings"
+        },
+        "options": {
+            "gender": [
+                "Male",
+                "Female"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "base",
+        "login": "Login",
+        "register": "Signup",
+        "home": "Home",
+        "service": "Service",
+        "starting": "Work",
+        "records": "Records",
+        "my": "My",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "Request failed! Please try again later",
+            "401": "Login session expired! Please log in again",
+            "403": "Current account does not have access permission",
+            "404": "The resource you are trying to access does not exist",
+            "405": "Incorrect request method! Please try again later",
+            "408": "Request timed out! Please try again later",
+            "500": "Service encountered an exception",
+            "990": "Your account has been frozen due to uncompleted tasks for a long time",
+            "10030008": "Please return the assistance fund before applying for cash withdrawal",
+            "10030010": "Invitation code does not exist",
+            "10030011": "Exceeded the maximum number of check-in times",
+            "10030012": "Do not meet the check-in conditions, please complete the task first",
+            "10030013": "Sign-in configuration error, please contact customer service",
+            "10030014": "Not within the allowed time period",
+            "10030015": "Member does not exist",
+            "10030016": "User has filled in {0} pieces of data, please apply withdrawal and contact Customer Service to apply for resetting account",
+            "10030017": "Unable to match product, please contact customer service",
+            "10030018": "Insufficient account balance",
+            "10030019": "Account has been disabled",
+            "10030020": "Account prohibited from trading",
+            "10030021": "Account withdrawal prohibited",
+            "10030022": "Transaction password error",
+            "10030023": "The withdrawal account is not bound, please bind the withdrawal account first",
+            "10030024": "Old password error",
+            "10030027": "Your withdrawal is restricted. Please contact customer service for more details",
+            "10030028": "Low credit scores prevent you from pulling money",
+            "10030030": "Not within the allowed time period",
+            "10030031": "Please contact customer service to reset today's task"
+        },
+        "errorHandler": {
+            "InternalError": "Internal error in the JavaScript engine",
+            "ReferenceError": "Object not found",
+            "TypeError": "Incorrect type or object used",
+            "RangeError": "Parameter out of range when using built-in objects",
+            "SyntaxError": "Syntax error",
+            "EvalError": "Incorrect use of Eval",
+            "URIError": "URI error",
+            "UnknownError": "Unknown"
+        },
+        "Network": {
+            "timedout": "Request timed out! Please try again later",
+            "error": "Network error! Please try again later"
+        },
+        "request": {
+            "NoMoreData": "No more data",
+            "FileMaxSize": "The file size exceeds the maximum value, which is {0}M"
+        },
+        "response": {
+            "loading": "Loading",
+            "success": "Success",
+            "fail": "Fail",
+            "complete": "Complete"
+        },
+        "page": {
+            "notexist": "Sorry, the page you are trying to access does not exist~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "Don't have an account?",
+            "Signup": "Signup",
+            "form": {
+                "label": [
+                    "Username/Phone",
+                    "Password"
+                ]
+            },
+            "forgotPassword": "Forgot Password?",
+            "contactSupport": "Contact Support"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "Username",
+                    "Phone",
+                    "Transaction Password",
+                    "Login Password",
+                    "Confirm Login Password",
+                    "Gender",
+                    "Invite Code"
+                ],
+                "rule": {
+                    "Phone": "Phone length cannot be less than 6 digits",
+                    "ConfirmLoginPassword": "Inconsistent passwords",
+                    "TradingPassword": "Transaction password length cannot be less than 6 digits",
+                    "LoginPassword": "Login password length cannot be less than 6 digits"
+                }
+            },
+            "agree": "I agree with"
+        }
+    },
+    "home": {
+        "service": [
+            "Service",
+            "Event",
+            "Withdrawal",
+            "Deposit",
+            "T & C",
+            "Certificate",
+            "FAQs",
+            "About",
+            "VIP"
+        ],
+        "sign": {
+            "title": "Signed in for {0} day",
+            "SignIn": "Sign In"
+        },
+        "Popularhotels": "Popular hotels",
+        "HotelRankings": "Hotel Rankings",
+        "vip": {
+            "title": "@:vip.title",
+            "more": "View More"
+        }
+    },
+    "starting": {
+        "Hi": "Hi",
+        "WelcomeBack": ", welcome back",
+        "WalletBalance": {
+            "title": "Wallet Balance",
+            "tips": "Profits will be added here"
+        },
+        "FrozenBalance": {
+            "title": "Frozen Balance",
+            "tips": "The frozen amount will be added here"
+        },
+        "TodaysProfit": {
+            "title": "Today's Profit",
+            "tips": "Commission Earned"
+        },
+        "StartOptimization": "Start Optimization",
+        "CompletedToday": "Completed Today",
+        "Start": "Start",
+        "Notice": {
+            "title": "Notice",
+            "date": "Online Support Hours {0} - {1}",
+            "tips": "Please contact online support for your assistance"
+        },
+        "TaskDialog": {
+            "title": "Task Submission",
+            "TotalAmount": "Total Amount",
+            "Profit": "Profit",
+            "TaskCode": "Task Code",
+            "CreatedAt": "Created At"
+        }
+    },
+    "my": {
+        "InvitationCode": "Invitation Code",
+        "SignSeq": "Consecutive sign-in days",
+        "CreditScore": "Credit Score",
+        "MyFinancial": {
+            "title": "My Financial",
+            "menu": [
+                "Deposit",
+                "Withdraw",
+                "Transaction"
+            ]
+        },
+        "MyDetail": {
+            "title": "My Detail",
+            "menu": [
+                "Personal Information",
+                "Payment Methods"
+            ]
+        },
+        "Other": {
+            "title": "Other",
+            "menu": [
+                "Contact Us",
+                "Notifications",
+                "Change Language"
+            ]
+        },
+        "Logout": {
+            "title": "Logout",
+            "content": "Are you sure you want to logout?"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "All",
+            "Pending": "Pending",
+            "Frozen": "Freezing",
+            "Completed": "Completed",
+            "Undone": "Undone"
+        },
+        "TotalAmount": "Total Amount",
+        "Profit": "Profit"
+    },
+    "withdraw": {
+        "tabs": [
+            "Withdraw",
+            "History"
+        ],
+        "History": {
+            "tabs": [
+                "Reviewing",
+                "Success",
+                "Reject"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "Account Number",
+                "Order No",
+                "Address",
+                "Amount", 
+                "Fee",
+                "Created At",
+                "Status",
+                "Reason"
+            ]
+        },
+        "AccountAmount": "Account Amount",
+        "tips": "You will receive your withdrawal within an hour ",
+        "form": {
+            "label": [
+                "Withdraw Amount",
+                "Transaction Password"
+            ],
+            "ALL": "ALL",
+            "Withdraw": "Submit"
+        },
+        "WithdrawAccount": "Withdraw Account",
+        "tradingKind": [
+            "Cash back",
+            "Deduction",
+            "Recharge",
+            "Withdrawing",
+            "Withdrawal unfreeze",
+            "Withdrawal",
+            "Task",
+            "Principal return",
+            "Commission return",
+            "Subordinate commission return",
+            "check-in",
+            "Handling fee",
+            "Deposit",
+            "Reward",
+            "Base salary",
+            "Cash assistance",
+            "Registration bonus",
+            "Commodity dividends",
+            "Task bonus",
+            "Others"
+        ]
+    }, 
+    "deposit": {
+        "tabs": [
+            "Deposit",
+            "History"
+        ],
+        "History": {
+            "tabs": [
+                "Reviewing", 
+                "Success",
+                "Reject"
+            ]
+        },
+        "AccountAmount": "Account Amount",
+        "ContactCustomerService": "Contact Customer Service",
+        "NoCustomerService": "Customer Service Busy",
+        "tips": "Kindly submit the previous rating before you proceed the next rating!"
+    },
+    "vip": {
+        "title": "Vip Levels",
+        "current": "Current"
+    },
+    "profileItem": {
+        "title": "Modify information",
+        "menu": [
+            "Modify Personal Information",
+            "Username",
+            "Update Password",
+            "Update Transaction Password"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "Old Password",
+                    "New Password",
+                    "Confirm New Password"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "Old Password",
+                    "New Password",
+                    "Confirm New Password"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "Payment Methods",
+        "tips": "Dear user, please fill in your ERC20/TRC20 address. Please do not enter your bank account detail and password",
+        "form": {
+            "TransactionPassword": "Transaction Password",
+            "Address": "Wallet Address"
+        },
+        "label": [
+            "Bank Name",
+            "Branch Code",
+            "Branch Name",
+            "Deposit Type",
+            "Account Number",
+            "Account Holder"
+        ],
+        "tabs": [
+            "Bank Card",
+            "Network"
+        ],
+        "delete": "Delete",
+        "default": "Default",
+        "create": "Create",
+        "type": "Withdrawal Type",
+        "defaultAccount": "Default Withdrawal Account",
+        "deleteMsg": "Are you sure you want to delete?"
+    },
+    "gifts": {
+        "title": "Gifts Redemption Center",
+        "myPoints": "My Points",
+        "SelectedGifts": "Selected Gifts",
+        "form": {
+            "label": {
+                "title": "Search",
+                "points": "Points"
+            }
+        },
+        "redemption": "Redeemed",
+        "stock": "Stock",
+        "id": {
+            "redeemPoints": "Redeem the required points：",
+            "btn": "Redeem Now",
+            "title": "Points Redemption Gift Notice",
+            "content": "Dear worker, thank you for your participation in the work.\n\nPlease read the following terms before redeeming points:\n\n[Work Points] After daily completion of order set data optimization, workers can earn 1 gift point, which can be used for partial gift sponsorship redemption.\n[Gift Redemption] Workers need to provide relevant shipping address information, and the gift will be shipped free of charge worldwide within 14 days. After the redemption is completed, you can contact customer service to obtain the tracking number to track the progress of the gift. The platform will not disclose information to third parties.\nNote: Once the points are redeemed for gifts, they cannot be refunded"
+        },
+        "applyDialog": {
+            "title": "Receiving information",
+            "form": {
+                "consignee": "Consignee",
+                "area": "Area",
+                "telephone": "Telephone",
+                "deliveryAddress": "Delivery address"
+            },
+            "btn": "Submit To"
+        },
+        "records": {
+            "title": "Records",
+            "status": [
+                "Pending Shipment",
+                "Shipped",
+                "Delivered",
+                "Cancelled"
+            ]
+        }
+    }
+}

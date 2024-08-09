@@ -1,0 +1,481 @@
+{
+    "name": "Namn",
+    "tel": "Telefon",
+    "save": "Spara",
+    "clear": "Klar",
+    "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "delete": "Radera",
+    "loading": "Laddar...",
+    "noCoupon": "Inga kuponger",
+    "nameEmpty": "Vänligen fyll i namnet",
+    "addContact": "Lägg till kontakt",
+    "telInvalid": "Felformat telefonnummer",
+    "vanCalendar": {
+        "end": "Slut",
+        "start": "Start",
+        "title": "Kalender",
+        "weekdays": [
+            "sön",
+            "mån",
+            "tis",
+            "ons",
+            "tors",
+            "fre",
+            "lör"
+        ]
+    },
+    "vanCascader": {
+        "select": "Välj"
+    },
+    "vanPagination": {
+        "prev": "Föregående",
+        "next": "Nästa"
+    },
+    "vanPullRefresh": {
+        "pulling": "Dra för att uppdatera...",
+        "loosing": "Lös för att uppdatera..."
+    },
+    "vanSubmitBar": {
+        "label": "Totalt:"
+    },
+    "vanCoupon": {
+        "unlimited": "Obegränsat"
+    },
+    "vanCouponCell": {
+        "title": "Kupong"
+    },
+    "vanCouponList": {
+        "exchange": "Utbyta",
+        "close": "Stäng",
+        "enable": "Tillgängliga",
+        "disabled": "Inte tillgänglig",
+        "placeholder": "Kupongkod"
+    },
+    "vanAddressEdit": {
+        "area": "Område",
+        "areaEmpty": "Välj ett mottagningsområde",
+        "addressEmpty": "Adressen får inte vara tom",
+        "addressDetail": "Adress",
+        "defaultAddress": "Ange som standardadress"
+    },
+    "vanAddressList": {
+        "add": "Lägg till ny adress"
+    },
+    "system": {
+        "terms": "Villkor och bestämmelser",
+        "actions": {
+            "Submit": "Skicka",
+            "BackToLogin": "Tillbaka till inloggning",
+            "Register": "Registrera",
+            "Logout": "Logga ut",
+            "Update": "Uppdatera",
+            "Taptochange": "Tryck för att ändra"
+        },
+        "rules": {
+            "isRequired": "Obligatoriskt",
+            "require": "{0} krävs",
+            "valid": "{0} är inte giltig {0}",
+            "cannotContainBlankStrings": "{0} kan inte innehålla tomma strängar"
+        },
+        "options": {
+            "gender": [
+                "Man",
+                "Kvinna"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "base",
+        "login": "Logga in",
+        "register": "Registrera",
+        "home": "Hem",
+        "service": "Service",
+        "starting": "Börjar",
+        "records": "Poster",
+        "my": "Min",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "Begäran misslyckades! Försök igen senare",
+            "401": "Inloggningssessionen har löpt ut! Logga in igen",
+            "403": "Nuvarande konto har inte åtkomstbehörighet",
+            "404": "Resursen du försöker komma åt finns inte",
+            "405": "Felaktig begäran! Försök igen senare",
+            "408": "Begäran tog för lång tid! Försök igen senare",
+            "500": "Tjänsten stötte på ett undantag",
+            "990": "Ditt konto har varit spärrat under en längre tid på grund av oavslutade uppgifter",
+            "10030008": "Vänligen returnera assistansfonden innan du ansöker om kontantuttag",
+            "10030010": "Inbjudningskoden finns inte",
+            "10030011": "Överskred det maximala antalet incheckningstillfällen",
+            "10030012": "Uppfyller inte incheckningsvillkoren, slutför uppgiften först",
+            "10030013": "Inloggningskonfigurationsfel, kontakta kundtjänst",
+            "10030014": "Inte inom den tillåtna tidsperioden",
+            "10030015": "Medlemmen finns inte",
+            "10030016": "Användaren har fyllt i {0} uppgifter, vänligen ansök om återkallelse och kontakta kundtjänst för att ansöka om återställning av konto",
+            "10030017": "Kan inte matcha produkt, kontakta kundtjänst",
+            "10030018": "Otillräcklig kontosaldo",
+            "10030019": "Kontot har inaktiverats",
+            "10030020": "Konto förbjudet från handel",
+            "10030021": "Kontouttag förbjudet",
+            "10030022": "Transaktionslösenordsfel",
+            "10030023": "Uttagskontot är inte bundet, bind uttagskontot först",
+            "10030024": "Gammalt lösenordsfel",
+            "10030027": "Ditt uttag är begränsat. Kontakta kundtjänst för mer information",
+            "10030028": "Låga kreditpoäng hindrar dig från att ta ut pengar",
+            "10030030": "Inte inom den tillåtna tidsperioden",
+            "10030031": "Kontakta kundtjänst för att återställa dagens uppgift"
+        },
+        "errorHandler": {
+            "InternalError": "Internt fel i JavaScript-motorn",
+            "ReferenceError": "Objektet hittades inte",
+            "TypeError": "Felaktig typ eller objekt används",
+            "RangeError": "Parameter utanför området vid användning av inbyggda objekt",
+            "SyntaxError": "Syntaxfel",
+            "EvalError": "Felaktig användning av Eval",
+            "URIError": "URI-fel",
+            "UnknownError": "Okänt"
+        },
+        "Network": {
+            "timedout": "Begäran tog för lång tid! Försök igen senare",
+            "error": "Nätverksfel! Försök igen senare"
+        },
+        "request": {
+            "NoMoreData": "Inga fler data",
+            "FileMaxSize": "Filstorleken överstiger det maximala värdet, vilket är {0}M"
+        },
+        "response": {
+            "loading": "Laddar",
+            "success": "Framgång",
+            "fail": "Misslyckande",
+            "complete": "Komplett"
+        },
+        "page": {
+            "notexist": "Tyvärr, sidan du försöker komma åt finns inte~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "Har du inget konto?",
+            "Signup": "Registrera dig",
+            "form": {
+                "label": [
+                    "Användarnamn/Telefon",
+                    "Lösenord"
+                ]
+            },
+            "forgotPassword": "Glömt ditt lösenord?",
+            "contactSupport": "Kontakta supporten"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "Användarnamn",
+                    "Telefon",
+                    "Transaktionslösenord",
+                    "Inloggningslösenord",
+                    "Bekräfta inloggningslösenord",
+                    "Kön",
+                    "Inbjudningskod"
+                ],
+                "rule": {
+                    "Phone": "Telefon får inte vara kortare än 6 siffror",
+                    "ConfirmLoginPassword": "Inkonsekventa lösenord",
+                    "TradingPassword": "Transaktionens lösenord får inte vara kortare än 6 siffror",
+                    "LoginPassword": "Inloggningslösenordet får inte vara kortare än 6 siffror"
+                }
+            },
+            "agree": "Jag håller med"
+        }
+    },
+    "home": {
+        "service": [
+            "Service",
+            "Evenemang",
+            "Uttag",
+            "Insättning",
+            "Villkor",
+            "Certifikat",
+            "Vanliga Frågor",
+            "Om oss",
+            "VIP"
+        ],
+        "sign": {
+            "title": "Loggade in i {0} dag",
+            "SignIn": "Logga in"
+        },
+        "Popularhotels": "Samarbetsmärke",
+        "HotelRankings": "Hotellrankning",
+        "vip": {
+            "title": "@:vip.title",
+            "more": "Visa Mer"
+        }
+    },
+    "starting": {
+        "Hi": "Hej",
+        "WelcomeBack": ", välkommen tillbaka",
+        "WalletBalance": {
+            "title": "Plånbokssaldo",
+            "tips": "Vinsterna kommer att läggas till här"
+        },
+        "FrozenBalance": {
+            "title": "Fryst balans",
+            "tips": "Den frysta mängden kommer att läggas till här"
+        },
+        "TodaysProfit": {
+            "title": "Dagens vinst",
+            "tips": "Förtjänad provision"
+        },
+        "StartOptimization": "Börja optimering",
+        "CompletedToday": "Färdigställt idag",
+        "Start": "Börja",
+        "Notice": {
+            "title": "Meddelande",
+            "date": "Online supporttider {0} - {1}",
+            "tips": "Kontakta online supporten för hjälp"
+        },
+        "TaskDialog": {
+            "title": "Uppgiftsinsändning",
+            "TotalAmount": "Totalt belopp",
+            "Profit": "Vinst",
+            "TaskCode": "Uppgiftskod",
+            "CreatedAt": "Skapad vid"
+        }
+    },
+    "my": {
+        "InvitationCode": "Inbjudningskod",
+        "SignSeq": "På varandra följande inloggningsdagar",
+        "CreditScore": "Kreditvärdering",
+        "MyFinancial": {
+            "title": "Min Ekonomi",
+            "menu": [
+                "Insättning",
+                "Uttag",
+                "Transaktion"
+            ]
+        },
+        "MyDetail": {
+            "title": "Min Detalj",
+            "menu": [
+                "Personlig Information",
+                "Betalningsmetoder"
+            ]
+        },
+        "Other": {
+            "title": "Andra",
+            "menu": [
+                "Kontakta Oss",
+                "Aviseringar",
+                "Byt Språk"
+            ]
+        },
+        "Logout": {
+            "title": "Logga ut",
+            "content": "Är du säker på att du vill logga ut?"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "Alla",
+            "Pending": "Väntande",
+            "Frozen": "Frusen",
+            "Completed": "Slutförd",
+            "Undone": "Ej utförd"
+        },
+        "TotalAmount": "Totalbelopp",
+        "Profit": "Vinst"
+    },
+    "withdraw": {
+        "tabs": [
+            "Uttag",
+            "Historik"
+        ],
+        "History": {
+            "tabs": [
+                "Granskar",
+                "Lyckades",
+                "Avvisad"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "Kontonummer",
+                "Ordernummer",
+                "Adress",
+                "Belopp",
+                "Avgift",
+                "Skapad den",
+                "Status",
+                "Anledning"
+            ]
+        },
+        "AccountAmount": "Kontobelopp",
+        "tips": "Du kommer att få ditt uttag inom en timme",
+        "form": {
+            "label": [
+                "Belopp att ta ut",
+                "Transaktionslösenord"
+            ],
+            "ALL": "ALLA",
+            "Withdraw": "Skicka in"
+        },
+        "WithdrawAccount": "Ta ut konto",
+        "tradingKind": [
+            "Pengar tillbaka",
+            "Avdrag",
+            "Ladda om",
+            "Återkalla",
+            "Uttag frysa upp",
+            "Uttag",
+            "Uppgift",
+            "Rektors återlämnande",
+            "Provisionsretur",
+            "Underställd provisionsretur",
+            "checka in",
+            "Expeditionsavgift",
+            "Deposition",
+            "Pris",
+            "Grundlön",
+            "Kontanthjälp",
+            "Registreringsbonus",
+            "Råvaruutdelning",
+            "Uppgiftsbonus",
+            "Andra"
+        ]
+    },
+    "deposit": {
+        "tabs": [
+            "Insättning",
+            "Historik"
+        ],
+        "History": {
+            "tabs": [
+                "Granskning",
+                "Lyckades",
+                "Avvisa"
+            ]
+        },
+        "AccountAmount": "Kontobelopp",
+        "ContactCustomerService": "Kontakta Kundtjänst",
+        "NoCustomerService": "Kundtjänst Upptagen",
+        "tips": "Vänligen lämna in den tidigare bedömningen innan du går vidare med nästa bedömning!"
+    },
+    "vip": {
+        "title": "VIP-nivåer",
+        "current": "Nuvarande"
+    },
+    "profileItem": {
+        "title": "Modifiera information",
+        "menu": [
+            "Modifiera personuppgifter",
+            "Användarnamn",
+            "Uppdatera lösenord",
+            "Uppdatera transaktionslösenord"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "Gammalt lösenord",
+                    "Nytt lösenord",
+                    "Bekräfta nytt lösenord"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "Gammalt lösenord",
+                    "Nytt lösenord",
+                    "Bekräfta nytt lösenord"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "Betalningsmetoder",
+        "tips": "Kära användare, vänligen fyll i din ERC20/TRC20-adress. Vänligen ange inte dina bankkontouppgifter och lösenord",
+        "form": {
+            "TransactionPassword": "Transaktionslösenord",
+            "Address": "Plånboksadress"
+        },
+        "label": [
+            "Bankens Namn",
+            "Avdelningskod",
+            "Avdelningsnamn",
+            "Insättnings Typ",
+            "Kontonummer",
+            "Kontoinnehavare"
+        ],
+        "tabs": [
+            "Bankkort",
+            "Nätverk"
+        ],
+        "delete": "Radera",
+        "default": "Standard",
+        "create": "Skapa",
+        "type": "Uttags Typ",
+        "defaultAccount": "Standard Uttagskonto",
+        "deleteMsg": "Är du säker på att du vill radera?"
+    },
+    "gifts": {
+        "title": "Presentkortcenter",
+        "myPoints": "Mina poäng",
+        "SelectedGifts": "Valda gåvor",
+        "form": {
+            "label": {
+                "title": "Sök",
+                "points": "Poäng"
+            }
+        },
+        "redemption": "Upprättelse",
+        "stock": "Stock",
+        "id": {
+            "redeemPoints": "Lösa in de nödvändiga poängen:",
+            "btn": "Lösa in nu",
+            "title": "Köpavisning",
+            "content": "Kära arbetare, tack för ditt deltagande i arbetet.\n\nLäs följande villkor innan du löser in poäng:\n\n[Arbetspoäng] Efter dagligt slutförande av orderuppsättningsdataoptimering kan arbetare tjäna 1 gåvopoäng, vilket kan användas för partiell inlösen av sponsring av gåvor.\n[Inlösen av gåvor] Arbetare måste ange relevant leveransadressinformation, och gåvan kommer att skickas gratis över hela världen inom 14 dagar. Efter att inlösen är klar kan du kontakta kundtjänst för att få spårningsnumret för att spåra gåvans framsteg. Plattformen kommer inte att avslöja information till tredje part.\nObs! När poängen har lösts in för gåvor kan de inte återbetalas"
+        },
+        "applyDialog": {
+            "title": "Mottagande av information",
+            "form": {
+                "consignee": "Mottagare",
+                "area": "Område",
+                "telephone": "Telefon",
+                "deliveryAddress": "Leveransadress"
+            },
+            "btn": "Skicka till"
+        },
+        "records": {
+            "title": "Poster",
+            "status": [
+                "Väntar på leverans",
+                "Skickad",
+                "Levererad",
+                "Annullerad"
+            ]
+        }
+    }
+}

@@ -1,0 +1,481 @@
+{
+    "name": "Name",
+    "tel": "Phone",
+    "save": "Save",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "noCoupon": "No coupons",
+    "nameEmpty": "Please fill in the name",
+    "addContact": "Add contact",
+    "telInvalid": "Malformed phone number",
+    "vanCalendar": {
+        "end": "End",
+        "start": "Start",
+        "title": "Calendar",
+        "weekdays": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ]
+    },
+    "vanCascader": {
+        "select": "Select"
+    },
+    "vanPagination": {
+        "prev": "Previous",
+        "next": "Next"
+    },
+    "vanPullRefresh": {
+        "pulling": "Pull to refresh...",
+        "loosing": "Loose to refresh..."
+    },
+    "vanSubmitBar": {
+        "label": "Total:"
+    },
+    "vanCoupon": {
+        "unlimited": "Unlimited"
+    },
+    "vanCouponCell": {
+        "title": "Coupon"
+    },
+    "vanCouponList": {
+        "exchange": "Exchange",
+        "close": "Close",
+        "enable": "Available",
+        "disabled": "Unavailable",
+        "placeholder": "Coupon code"
+    },
+    "vanAddressEdit": {
+        "area": "Area",
+        "areaEmpty": "Please select a receiving area",
+        "addressEmpty": "Address can not be empty",
+        "addressDetail": "Address",
+        "defaultAddress": "Set as the default address"
+    },
+    "vanAddressList": {
+        "add": "Add new address"
+    },
+    "system": {
+        "terms": "Podmienky a pravidlá",
+        "actions": {
+            "Submit": "Odoslať",
+            "BackToLogin": "Späť na prihlásenie",
+            "Register": "Registrácia",
+            "Logout": "Odhlásenie",
+            "Update": "Aktualizácia",
+            "Taptochange": "Ťuknutím na položku zmeníte"
+        },
+        "rules": {
+            "isRequired": "Požadované",
+            "require": "{0} sa vyžaduje",
+            "valid": "{0} nie je platný {0}",
+            "cannotContainBlankStrings": "{0} nemôže obsahovať prázdne reťazce"
+        },
+        "options": {
+            "gender": [
+                "Muži",
+                "Ženy"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "základňa",
+        "login": "Prihlásenie",
+        "register": "Registrácia",
+        "home": "Domov",
+        "service": "Služba",
+        "starting": "Začíname na",
+        "records": "Záznamy",
+        "my": "Môj",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "Požiadavka zlyhala! Prosím, skúste to neskôr",
+            "401": "Relácia prihlásenia vypršala! Prihláste sa znova",
+            "403": "Aktuálne konto nemá prístupové oprávnenie",
+            "404": "Zdroj, ku ktorému sa snažíte získať prístup, neexistuje",
+            "405": "Nesprávna metóda požiadavky! Prosím, skúste to neskôr",
+            "408": "Request timed out! Prosím, skúste to znova neskôr",
+            "500": "Služba narazila na výnimku",
+            "990": "Váš účet bol dlhodobo zmrazený z dôvodu nedokončených úloh",
+            "10030008": "Pred podaním žiadosti o výber hotovosti vráťte, prosím, asistenčný fond",
+            "10030010": "Kód výzvy neexistuje",
+            "10030011": "Prekročený maximálny počet časov registrácie",
+            "10030012": "Nespĺňate podmienky na prihlásenie, najskôr dokončite úlohu",
+            "10030013": "Chyba konfigurácie prihlásenia, kontaktujte zákaznícky servis",
+            "10030014": "Nie je v rámci povoleného časového obdobia",
+            "10030015": "Člen neexistuje",
+            "10030016": "Používateľ vyplnil {0} údajov, požiadajte o odstúpenie od zmluvy a kontaktujte zákaznícky servis, aby ste požiadali o obnovenie účtu",
+            "10030017": "Nie je možné nájsť zhodný produkt, kontaktujte prosím zákaznícky servis",
+            "10030018": "Nedostatočný zostatok na účte",
+            "10030019": "Účet bol zablokovaný",
+            "10030020": "Účet zakázaný na obchodovanie",
+            "10030021": "Výber z účtu zakázaný",
+            "10030022": "Chyba hesla transakcie",
+            "10030023": "Účet na výber nie je viazaný, najskôr viažte účet na výber",
+            "10030024": "Chyba starého hesla",
+            "10030027": "Váš výber je obmedzený. Pre viac informácií kontaktujte prosím zákaznícky servis",
+            "10030028": "Nízke kreditné skóre vám bráni vo výbere peňazí",
+            "10030030": "Nie je v rámci povoleného časového obdobia",
+            "10030031": "Prosím, kontaktujte zákaznícky servis pre obnovenie dnešnej úlohy"
+        },
+        "errorHandler": {
+            "InternalError": "Interná chyba v motore JavaScript",
+            "ReferenceError": "Objekt nebol nájdený",
+            "TypeError": "Nesprávny typ alebo použitý objekt",
+            "RangeError": "Parameter mimo rozsahu pri použití zabudovaných objektov",
+            "SyntaxError": "Chyba syntaxe",
+            "EvalError": "Nesprávne používanie Eval",
+            "URIError": "Chyba URI",
+            "UnknownError": "Neznáme"
+        },
+        "Network": {
+            "timedout": "Žiadosť sa vyčerpala! Skúste to prosím neskôr",
+            "error": "Chyba siete! Skúste to prosím neskôr"
+        },
+        "request": {
+            "NoMoreData": "Žiadne ďalšie údaje",
+            "FileMaxSize": "Veľkosť súboru prekračuje maximálnu hodnotu, ktorá je {0}M"
+        },
+        "response": {
+            "loading": "Načítavanie",
+            "success": "Úspech",
+            "fail": "Zlyhanie",
+            "complete": "Kompletné"
+        },
+        "page": {
+            "notexist": "Je nám ľúto, stránka, na ktorú sa pokúšate získať prístup, neexistuje~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "Nemáte účet?",
+            "Signup": "Registrovať sa",
+            "form": {
+                "label": [
+                    "Používateľské meno/telefón",
+                    "Heslo"
+                ]
+            },
+            "forgotPassword": "Zabudol si heslo?",
+            "contactSupport": "Kontaktujte podporu"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "Používateľské meno",
+                    "Telefón",
+                    "Heslo transakcie",
+                    "Prihlasovacie heslo",
+                    "Potvrdenie prihlasovacieho hesla",
+                    "Pohlavie",
+                    "Pozývací kód"
+                ],
+                "rule": {
+                    "Phone": "Dĺžka telefónu nesmie byť menšia ako 6 číslic",
+                    "ConfirmLoginPassword": "Nekonzistentné heslá",
+                    "TradingPassword": "Dĺžka hesla transakcie nesmie byť menšia ako 6 číslic",
+                    "LoginPassword": "Dĺžka prihlasovacieho hesla nesmie byť menšia ako 6 číslic"
+                }
+            },
+            "agree": "Súhlasím s"
+        }
+    },
+    "home": {
+        "service": [
+            "Služba",
+            "Udalosť",
+            "Odstúpenie od zmluvy",
+            "Vklad",
+            "T & C",
+            "Certifikát",
+            "FAQs",
+            "O stránke",
+            "VIP"
+        ],
+        "sign": {
+            "title": "Prihlásený na {0} deň",
+            "SignIn": "Prihlásiť sa"
+        },
+        "Popularhotels": "Spolupráca značiek",
+        "HotelRankings": "Rebríček hotelov",
+        "vip": {
+            "title": "@:vip.title",
+            "more": "Zobraziť viac"
+        }
+    },
+    "starting": {
+        "Hi": "Ahoj",
+        "WelcomeBack": ", vitajte späť",
+        "WalletBalance": {
+            "title": "Zostatok peňaženky",
+            "tips": "Tu sa pridajú zisky"
+        },
+        "FrozenBalance": {
+            "title": "Zmrazený zostatok",
+            "tips": "Tu sa pridá zmrazené množstvo"
+        },
+        "TodaysProfit": {
+            "title": "Dnešný zisk",
+            "tips": "Získaná provízia"
+        },
+        "StartOptimization": "Spustenie optimalizácie",
+        "CompletedToday": "Dokončené dnes",
+        "Start": "Spustiť",
+        "Notice": {
+            "title": "Oznámenie",
+            "date": "Online podporné hodiny {0} - {1}",
+            "tips": "Pre vašu pomoc kontaktujte online podporu"
+        },
+        "TaskDialog": {
+            "title": "Odovzdávanie úloh",
+            "TotalAmount": "Celková suma",
+            "Profit": "Zisk",
+            "TaskCode": "Kód úlohy",
+            "CreatedAt": "Vytvorené v"
+        }
+    },
+    "my": {
+        "InvitationCode": "Kód pozvánky",
+        "SignSeq": "Po sebe idúce dni prihlásenia",
+        "CreditScore": "Úverové skóre",
+        "MyFinancial": {
+            "title": "Moje financie",
+            "menu": [
+                "Vklad",
+                "Stiahnuť",
+                "Transakcia"
+            ]
+        },
+        "MyDetail": {
+            "title": "Moje detaily",
+            "menu": [
+                "Osobné informácie",
+                "Spôsoby platby"
+            ]
+        },
+        "Other": {
+            "title": "Iné",
+            "menu": [
+                "Kontaktujte nás",
+                "Oznámenia",
+                "Zmena jazyka"
+            ]
+        },
+        "Logout": {
+            "title": "Odhlásenie",
+            "content": "Ste si istí, že sa chcete odhlásiť?"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "Všetky",
+            "Pending": "Čaká sa na",
+            "Frozen": "Zmrazené",
+            "Completed": "Dokončené",
+            "Undone": "Nedokončené"
+        },
+        "TotalAmount": "Celková suma",
+        "Profit": "Zisk"
+    },
+    "withdraw": {
+        "tabs": [
+            "Stiahnuť",
+            "História"
+        ],
+        "History": {
+            "tabs": [
+                "Prehľad",
+                "Úspech",
+                "Odmietnuť"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "Číslo účtu",
+                "Objednávacie číslo",
+                "Adresa",
+                "Suma",
+                "Poplatok",
+                "Vytvorené v",
+                "Stav",
+                "Dôvod"
+            ]
+        },
+        "AccountAmount": "Suma účtu",
+        "tips": "Výplatu dostanete do hodiny ",
+        "form": {
+            "label": [
+                "Výška výberu",
+                "Heslo transakcie"
+            ],
+            "ALL": "VŠETKY",
+            "Withdraw": "Odoslať"
+        },
+        "WithdrawAccount": "Výber účtu",
+        "tradingKind": [
+            "Vrátiť peniaze",
+            "Odpočet",
+            "Dobiť",
+            "Stiahnutie",
+            "Zrušiť zmrazenie výberu",
+            "Odstúpenie",
+            "Úloha",
+            "Hlavná návratnosť",
+            "Návrat provízie",
+            "Vrátenie podriadenej provízie",
+            "check-in",
+            "Manipulačný poplatok",
+            "Záloha",
+            "Odmena",
+            "Základný plat",
+            "Pomoc v hotovosti",
+            "Registračný bonus",
+            "komoditné dividendy",
+            "Úloha bonus",
+            "iní"
+        ]
+    },
+    "deposit": {
+        "tabs": [
+            "Vklad",
+            "História"
+        ],
+        "History": {
+            "tabs": [
+                "Prehľad",
+                "Úspech",
+                "Odmietnuť"
+            ]
+        },
+        "AccountAmount": "Suma účtu",
+        "ContactCustomerService": "Kontaktovať zákaznícky servis",
+        "NoCustomerService": "Zákaznícky servis Zaneprázdnený",
+        "tips": "Predtým, ako pristúpite k ďalšiemu hodnoteniu, odošlite predchádzajúce hodnotenie!"
+    },
+    "vip": {
+        "title": "Úrovne Vip",
+        "current": "Aktuálne"
+    },
+    "profileItem": {
+        "title": "Úprava informácií",
+        "menu": [
+            "Úprava osobných údajov",
+            "Username",
+            "Aktualizácia hesla",
+            "Aktualizácia hesla transakcie"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "Staré heslo",
+                    "Nové heslo",
+                    "Potvrdenie nového hesla"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "Staré heslo",
+                    "Nové heslo",
+                    "Potvrdenie nového hesla"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "Spôsoby Platby",
+        "tips": "Vážený používateľ, prosím vyplňte svoju adresu ERC20/TRC20. Prosím, nezadávajte údaje o vašom bankovom účte a heslo",
+        "form": {
+            "TransactionPassword": "Heslo transakcie",
+            "Address": "Adresa Peňaženky"
+        },
+        "label": [
+            "Názov Banky",
+            "Kód Pobočky",
+            "Názov Pobočky",
+            "Typ Vkladu",
+            "Číslo Účtu",
+            "Vlastník Účtu"
+        ],
+        "tabs": [
+            "Banková Karta",
+            "Sieť"
+        ],
+        "delete": "Odstrániť",
+        "default": "Predvolené",
+        "create": "Vytvoriť",
+        "type": "Typ Výberu",
+        "defaultAccount": "Predvolený Účet na Výber",
+        "deleteMsg": "Ste si istí, že chcete odstrániť?"
+    },
+    "gifts": {
+        "title": "Centrum darčekových kariet",
+        "myPoints": "Moje body",
+        "SelectedGifts": "Vybrané dary",
+        "form": {
+            "label": {
+                "title": "Vyhľadávanie",
+                "points": "Body"
+            }
+        },
+        "redemption": "Vykúpenie",
+        "stock": "Skladom",
+        "id": {
+            "redeemPoints": "Vymeniť potrebné body:",
+            "btn": "Vymeniť teraz",
+            "title": "Upozornenie na nákup",
+            "content": "Vážený pracovník, ďakujeme vám za vašu účasť na práci.\n\nPred uplatnením bodov si prečítajte nasledujúce podmienky:\n\n[Pracovné body] Po každodennom dokončení optimalizácie údajov sady objednávok môžu pracovníci získať 1 darčekový bod, ktorý môže použiť na čiastočné vyplatenie sponzorského daru.\n[Uplatnenie darčekov] Pracovníci musia poskytnúť relevantné informácie o dodacej adrese a darček bude do 14 dní odoslaný bezplatne do celého sveta. Po dokončení vyplatenia môžete kontaktovať zákaznícky servis a získať sledovacie číslo na sledovanie priebehu daru. Platforma nezverejní informácie tretím stranám.\nPoznámka: Keď budú body vymenené za darčeky, nie je možné ich vrátiť"
+        },
+        "applyDialog": {
+            "title": "Prihlasovacie údaje",
+            "form": {
+                "consignee": "Príjemca",
+                "area": "Oblasť",
+                "telephone": "Telefón",
+                "deliveryAddress": "Dodacia adresa"
+            },
+            "btn": "Odoslať"
+        },
+        "records": {
+            "title": "Záznamy",
+            "status": [
+                "Čaká sa na odoslanie",
+                "Odoslané",
+                "Dodané",
+                "Zrušené"
+            ]
+        }
+    }
+}

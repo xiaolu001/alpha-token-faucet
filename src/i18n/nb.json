@@ -1,0 +1,481 @@
+{
+    "name": "Navn",
+    "tel": "Telefon",
+    "save": "Lagre",
+    "clear": "Klar",
+    "cancel": "Avbryt",
+    "confirm": "Bekreft",
+    "delete": "Slett",
+    "loading": "Laster...",
+    "noCoupon": "Ingen kuponger",
+    "nameEmpty": "Vennligst fyll inn navn",
+    "addContact": "Legg til ny kontakt",
+    "telInvalid": "Ugyldig telefonnummer",
+    "vanCalendar": {
+        "end": "Slutt",
+        "start": "Start",
+        "title": "Kalendar",
+        "weekdays": [
+            "Søn",
+            "Man",
+            "Tir",
+            "Ons",
+            "Tor",
+            "Fre",
+            "Lør"
+        ]
+    },
+    "vanCascader": {
+        "select": "Plukke ut"
+    },
+    "vanPagination": {
+        "prev": "Forrige",
+        "next": "Neste"
+    },
+    "vanPullRefresh": {
+        "pulling": "Dra for oppdatering...",
+        "loosing": "Mist for oppdatering..."
+    },
+    "vanSubmitBar": {
+        "label": "Totalt:"
+    },
+    "vanCoupon": {
+        "unlimited": "Uendelig"
+    },
+    "vanCouponCell": {
+        "title": "Kupong"
+    },
+    "vanCouponList": {
+        "exchange": "Bytte",
+        "close": "Lukk",
+        "enable": "Tilgjengelig",
+        "disabled": "Utilgjengelig",
+        "placeholder": "Kupong kode"
+    },
+    "vanAddressEdit": {
+        "area": "Område",
+        "areaEmpty": "Vennligst fyll inn område",
+        "addressEmpty": "Addresse kan ikke være tomt",
+        "addressDetail": "Adresse",
+        "defaultAddress": "Sett som standard adresse"
+    },
+    "vanAddressList": {
+        "add": "Legg til ny adresse"
+    },
+    "system": {
+        "terms": "Vilkår og betingelser",
+        "actions": {
+            "Submit": "Send inn",
+            "BackToLogin": "Tilbake til innlogging",
+            "Register": "Registrer",
+            "Logout": "Logg ut",
+            "Update": "Oppdater",
+            "Taptochange": "Trykk for å endre"
+        },
+        "rules": {
+            "isRequired": "Påkrevd",
+            "require": "{0} er påkrevd",
+            "valid": "{0} er ikke gyldig {0}",
+            "cannotContainBlankStrings": "{0} kan ikke inneholde tomme strenger"
+        },
+        "options": {
+            "gender": [
+                "Mann",
+                "Kvinne"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "base",
+        "login": "Logg inn",
+        "register": "Registrer",
+        "home": "Hjem",
+        "service": "Tjeneste",
+        "starting": "Starter",
+        "records": "Poster",
+        "my": "Min",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "Forespørsel mislyktes! Prøv igjen senere",
+            "401": "Innloggingssesjon utløpt! Vennligst logg inn igjen",
+            "403": "Gjeldende konto har ikke tilgangstillatelse",
+            "404": "Ressursen du prøver å få tilgang til, eksisterer ikke",
+            "405": "Feil forespørselsmetode! Prøv igjen senere",
+            "408": "Forespørselstid ut! Prøv igjen senere",
+            "500": "Tjenesten møtte et unntak",
+            "990": "Kontoen din har vært frosset på grunn av ufullførte oppgaver i lang tid.",
+            "10030008": "Vennligst returner assistansefondet før du søker om kontantuttak",
+            "10030010": "Invitasjonskode eksisterer ikke",
+            "10030011": "Oversteg maksimalt antall innsjekkingstider",
+            "10030012": "Oppfyller ikke innsjekkingsbetingelsene, fullfør oppgaven først",
+            "10030013": "Feil i innstillingskonfigurasjonen, vennligst kontakt kundeservice",
+            "10030014": "Ikke innenfor den tillatte tidsperioden",
+            "10030015": "Medlem eksisterer ikke",
+            "10030016": "Brukeren har fylt ut {0} data, vennligst søk om uttak og kontakt kundeservice for å søke om tilbakestilling av konto",
+            "10030017": "Kan ikke matche produktet, vennligst kontakt kundeservice",
+            "10030018": "Utilstrekkelig kontosaldo",
+            "10030019": "Kontoen er deaktivert",
+            "10030020": "Konto forbudt fra handel",
+            "10030021": "Kontouttak forbudt",
+            "10030022": "Feil i transaksjonspassordet",
+            "10030023": "Uttakskontoen er ikke bundet, vennligst bind uttakskontoen først",
+            "10030024": "Feil i gammelt passord",
+            "10030027": "Ditt uttak er begrenset. Vennligst kontakt kundeservice for mer informasjon",
+            "10030028": "Lave kredittscore hindrer deg fra å ta ut penger",
+            "10030030": "Ikke innenfor den tillatte tidsperioden",
+            "10030031": "Ta kontakt med kundeservice for å tilbakestille dagens oppgave"
+        },
+        "errorHandler": {
+            "InternalError": "Intern feil i JavaScript-motoren",
+            "ReferenceError": "Objekt ikke funnet",
+            "TypeError": "Feil type eller objekt brukt",
+            "RangeError": "Parameter utenfor rekkevidde ved bruk av innebygde objekter",
+            "SyntaxError": "Syntaxfeil",
+            "EvalError": "Feil bruk av Eval",
+            "URIError": "URI-feil",
+            "UnknownError": "Ukjent"
+        },
+        "Network": {
+            "timedout": "Forespørselstid ut! Prøv igjen senere",
+            "error": "Nettverksfeil! Prøv igjen senere"
+        },
+        "request": {
+            "NoMoreData": "Ingen flere data",
+            "FileMaxSize": "Filstørrelsen overskrider maksimumsverdien, som er {0}M"
+        },
+        "response": {
+            "loading": "Laster",
+            "success": "Suksess",
+            "fail": "Feil",
+            "complete": "Fullført"
+        },
+        "page": {
+            "notexist": "Beklager, siden du prøver å få tilgang til, eksisterer ikke~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "Har du ingen konto?",
+            "Signup": "Registrer deg",
+            "form": {
+                "label": [
+                    "Brukernavn/Telefon",
+                    "Passord"
+                ]
+            },
+            "forgotPassword": "Glemt passord?",
+            "contactSupport": "Kontakt kundestøtte"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "Brukernavn",
+                    "Telefon",
+                    "Transaksjonspassord",
+                    "Innloggingspassord",
+                    "Bekreft innloggingspassord",
+                    "Kjønn",
+                    "Invitasjonskode"
+                ],
+                "rule": {
+                    "Phone": "Telefon kan ikke være mindre enn 6 sifre",
+                    "ConfirmLoginPassword": "Inkonsekvente passord",
+                    "TradingPassword": "Lengden på transaksjonspassordet kan ikke være mindre enn 6 sifre",
+                    "LoginPassword": "Lengden på påloggingspassordet kan ikke være mindre enn 6 sifre"
+                }
+            },
+            "agree": "Jeg er enig med"
+        }
+    },
+    "home": {
+        "service": [
+            "Service",
+            "Arrangement",
+            "Uttak",
+            "Innskudd",
+            "Vilkår og betingelser",
+            "Sertifikat",
+            "Ofte stilte spørsmål",
+            "Om oss",
+            "VIP"
+        ],
+        "sign": {
+            "title": "Logget inn i {0} dag",
+            "SignIn": "Logg inn"
+        },
+        "Popularhotels": "Samarbeidsmerke",
+        "HotelRankings": "Hotellrangering",
+        "vip": {
+            "title": "@:vip.title",
+            "more": "Vis mer"
+        }
+    },
+    "starting": {
+        "Hi": "Hei",
+        "WelcomeBack": ", velkommen tilbake",
+        "WalletBalance": {
+            "title": "Lommeboksbalanse",
+            "tips": "Fortjenestene vil bli lagt til her"
+        },
+        "FrozenBalance": {
+            "title": "Frossen balanse",
+            "tips": "Den frosne mengden legges til her"
+        },
+        "TodaysProfit": {
+            "title": "Dagens fortjeneste",
+            "tips": "Tjent provisjon"
+        },
+        "StartOptimization": "Start optimalisering",
+        "CompletedToday": "Fullført i dag",
+        "Start": "Start",
+        "Notice": {
+            "title": "Merknad",
+            "date": "Åpningstider for online støtte {0} - {1}",
+            "tips": "Vennligst kontakt online støtte for assistanse"
+        },
+        "TaskDialog": {
+            "title": "Oppgaveinnsending",
+            "TotalAmount": "Totalt beløp",
+            "Profit": "Fortjeneste",
+            "TaskCode": "Oppgavekode",
+            "CreatedAt": "Opprettet ved"
+        }
+    },
+    "my": {
+        "InvitationCode": "Invitasjonskode",
+        "SignSeq": "Sammenhengende påmeldingsdager",
+        "CreditScore": "Kredittscore",
+        "MyFinancial": {
+            "title": "Min Økonomi",
+            "menu": [
+                "Innskudd",
+                "Uttak",
+                "Transaksjon"
+            ]
+        },
+        "MyDetail": {
+            "title": "Min Detalj",
+            "menu": [
+                "Personlig Informasjon",
+                "Betalingsmetoder"
+            ]
+        },
+        "Other": {
+            "title": "Annet",
+            "menu": [
+                "Kontakt Oss",
+                "Varsler",
+                "Bytt Språk"
+            ]
+        },
+        "Logout": {
+            "title": "Logg ut",
+            "content": "Er du sikker på at du vil logge ut?"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "Alle",
+            "Pending": "Avventende",
+            "Frozen": "Frossen",
+            "Completed": "Fullført",
+            "Undone": "Ugjort"
+        },
+        "TotalAmount": "Totalbeløp",
+        "Profit": "Fortjeneste"
+    },
+    "withdraw": {
+        "tabs": [
+            "Ta ut",
+            "Historie"
+        ],
+        "History": {
+            "tabs": [
+                "Gjennomgår",
+                "Vellykket",
+                "Avvis"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "Kontonummer",
+                "Ordrenummer",
+                "Adresse",
+                "Beløp",
+                "Gebyr",
+                "Opprettet den",
+                "Status",
+                "Begrunnelse"
+            ]
+        },
+        "AccountAmount": "Kontobeløp",
+        "tips": "Du vil motta uttaket ditt innen en time",
+        "form": {
+            "label": [
+                "Beløp å ta ut",
+                "Transaksjonspassord"
+            ],
+            "ALL": "ALLE",
+            "Withdraw": "Sende"
+        },
+        "WithdrawAccount": "Ta ut konto",
+        "tradingKind": [
+            "Penger tilbake",
+            "Fradrag",
+            "Lade opp",
+            "Trekke tilbake",
+            "Uttak frigjør",
+            "Uttak",
+            "Oppgave",
+            "Rektoravkastning",
+            "Kommisjonsretur",
+            "Underordnet provisjonsretur",
+            "innsjekking",
+            "Ekspedisjonsgebyr",
+            "Innskudd",
+            "Belønning",
+            "Grunnlønn",
+            "Kontanthjelp",
+            "Registreringsbonus",
+            "Råvareutbytte",
+            "Oppgavebonus",
+            "Andre"
+        ]
+    },
+    "deposit": {
+        "tabs": [
+            "Innskudd",
+            "Historie"
+        ],
+        "History": {
+            "tabs": [
+                "Gjennomgang",
+                "Suksess",
+                "Avslå"
+            ]
+        },
+        "AccountAmount": "Kontobeløp",
+        "ContactCustomerService": "Kontakt Kundeservice",
+        "NoCustomerService": "Kundeservice Opptatt",
+        "tips": "Vennligst send inn den forrige vurderingen før du fortsetter med den neste vurderingen!"
+    },
+    "vip": {
+        "title": "VIP-nivåer",
+        "current": "Nåværende"
+    },
+    "profileItem": {
+        "title": "Endre informasjon",
+        "menu": [
+            "Endre personlig informasjon",
+            "Brukernavn",
+            "Oppdater passord",
+            "Oppdater transaksjonspassord"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "Gammelt passord",
+                    "Nytt passord",
+                    "Bekreft nytt passord"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "Gammelt passord",
+                    "Nytt passord",
+                    "Bekreft nytt passord"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "Betalingsmetoder",
+        "tips": "Kjære bruker, vennligst fyll ut din ERC20/TRC20 adresse. Vennligst ikke oppgi dine bankkontodetaljer og passord",
+        "form": {
+            "TransactionPassword": "Transaksjonspassord",
+            "Address": "Lommebokadresse"
+        },
+        "label": [
+            "Banknavn",
+            "Filialkode",
+            "Filialnavn",
+            "Innskuddstype",
+            "Kontonummer",
+            "Kontoeier"
+        ],
+        "tabs": [
+            "Bankkort",
+            "Nettverk"
+        ],
+        "delete": "Slett",
+        "default": "Standard",
+        "create": "Opprett",
+        "type": "Uttakstype",
+        "defaultAccount": "Standard Uttakskonto",
+        "deleteMsg": "Er du sikker på at du vil slette?"
+    },
+    "gifts": {
+        "title": "Gavekortssenter",
+        "myPoints": "Mine poeng",
+        "SelectedGifts": "Valgte gaver",
+        "form": {
+            "label": {
+                "title": "Søk",
+                "points": "Poeng"
+            }
+        },
+        "redemption": "Forløsning",
+        "stock": "Lager",
+        "id": {
+            "redeemPoints": "Innløs de nødvendige poengene:",
+            "btn": "Løs inn nå",
+            "title": "Kjøp Varsel",
+            "content": "Kjære medarbeider, takk for at du deltok i arbeidet.\n\nLes følgende vilkår før du løser inn poeng:\n\n[Arbeidspoeng] Etter daglig fullføring av bestillingsdataoptimalisering, kan arbeidere tjene 1 gavepoeng, som kan brukes til delvis innløsning av gavesponsing.\n[Gaveinnløsning] Arbeidere må oppgi relevant informasjon om leveringsadresse, og gaven sendes gratis over hele verden innen 14 dager. Etter at innløsningen er fullført, kan du kontakte kundeservice for å få sporingsnummeret for å spore fremdriften til gaven. Plattformen vil ikke avsløre informasjon til tredjeparter.\nMerk: Når poengene er innløst for gaver, kan de ikke refunderes"
+        },
+        "applyDialog": {
+            "title": "Mottak av informasjon",
+            "form": {
+                "consignee": "Mottaker",
+                "area": "Område",
+                "telephone": "Telefon",
+                "deliveryAddress": "Leveringsadresse"
+            },
+            "btn": "Send til"
+        },
+        "records": {
+            "title": "Poster",
+            "status": [
+                "Venter på sending",
+                "Sendt",
+                "Levert",
+                "Avbrutt"
+            ]
+        }
+    }
+}

@@ -1,0 +1,481 @@
+{
+    "name": "Name",
+    "tel": "Phone",
+    "save": "Save",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "noCoupon": "No coupons",
+    "nameEmpty": "Please fill in the name",
+    "addContact": "Add contact",
+    "telInvalid": "Malformed phone number",
+    "vanCalendar": {
+        "end": "End",
+        "start": "Start",
+        "title": "Calendar",
+        "weekdays": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ]
+    },
+    "vanCascader": {
+        "select": "Select"
+    },
+    "vanPagination": {
+        "prev": "Previous",
+        "next": "Next"
+    },
+    "vanPullRefresh": {
+        "pulling": "Pull to refresh...",
+        "loosing": "Loose to refresh..."
+    },
+    "vanSubmitBar": {
+        "label": "Total:"
+    },
+    "vanCoupon": {
+        "unlimited": "Unlimited"
+    },
+    "vanCouponCell": {
+        "title": "Coupon"
+    },
+    "vanCouponList": {
+        "exchange": "Exchange",
+        "close": "Close",
+        "enable": "Available",
+        "disabled": "Unavailable",
+        "placeholder": "Coupon code"
+    },
+    "vanAddressEdit": {
+        "area": "Area",
+        "areaEmpty": "Please select a receiving area",
+        "addressEmpty": "Address can not be empty",
+        "addressDetail": "Address",
+        "defaultAddress": "Set as the default address"
+    },
+    "vanAddressList": {
+        "add": "Add new address"
+    },
+    "system": {
+        "terms": "Vilkår og betingelser",
+        "actions": {
+            "Submit": "Send inn",
+            "BackToLogin": "Tilbake til innlogging",
+            "Register": "Registrer",
+            "Logout": "Logg ut",
+            "Update": "Oppdater",
+            "Taptochange": "Trykk for å endre"
+        },
+        "rules": {
+            "isRequired": "Påkrevd",
+            "require": "{0} er påkrevd",
+            "valid": "{0} er ikke gyldig {0}",
+            "cannotContainBlankStrings": "{0} nem tartalmazhat üres karakterláncokat"
+        },
+        "options": {
+            "gender": [
+                "Mann",
+                "Kvinne"
+            ]
+        }
+    },
+    "router": {
+        "appTitle": "base",
+        "login": "Bejelentkezés",
+        "register": "Regisztráció",
+        "home": "Kezdőlap",
+        "service": "Szolgáltatás",
+        "starting": "Kezdés",
+        "records": "Felvételek",
+        "my": "Saját",
+        "popular": "@:home.Popularhotels",
+        "rankings": "@:home.HotelRankings",
+        "gifts": "@:gifts.title",
+        "giftsRecord": "@:gifts.records.title",
+        "event": "@:home.service[1]",
+        "withdraw": "@:home.service[2]",
+        "deposit": "@:home.service[3]",
+        "tc": "@:home.service[4]",
+        "certificate": "@:home.service[5]",
+        "faqs": "@:home.service[6]",
+        "about": "@:home.service[7]",
+        "vip": "@:vip.title",
+        "transaction": "@:my.MyFinancial.menu[2]",
+        "profileItem": {
+            "title": "@:profileItem.title",
+            "profile": "@:my.MyDetail.menu[0]",
+            "updatePassword": "@:profileItem.menu[2]",
+            "updateTransactionPassword": "@:profileItem.menu[3]"
+        },
+        "paymentMethods": "@:paymentMethods.title",
+        "notice": "@:my.Other.menu[1]",
+        "registrationAgreement": "@:system.terms",
+        "customerServices": "@:home.service[0]"
+    },
+    "msg": {
+        "status": {
+            "400": "A kérés sikertelen! Kérjük, próbálja újra később",
+            "401": "A bejelentkezési munkamenet lejárt! Kérjük, jelentkezzen be újra",
+            "403": "A jelenlegi fióknak nincs hozzáférési engedélye",
+            "404": "Az általad megpróbált erőforrás nem létezik",
+            "405": "Helytelen kérési módszer! Kérjük, próbálja újra később",
+            "408": "A kérés időtúllépés! Kérjük, próbálja újra később",
+            "500": "Szolgáltatás hiba történt",
+            "990": "Fiókja hosszú ideje be van fagyasztva a nem teljesített feladatok miatt",
+            "10030008": "Kérjük, a készpénzfelvétel igénylése előtt adja vissza a támogatási alapot",
+            "10030010": "A meghívókód nem létezik",
+            "10030011": "Túllépte a maximális bejelentkezési időt",
+            "10030012": "Nem felel meg a bejelentkezési feltételeknek, kérjük, először végezze el a feladatot",
+            "10030013": "Bejelentkezési konfigurációs hiba, kérjük, lépjen kapcsolatba az ügyfélszolgálattal",
+            "10030014": "Nem a megengedett időszakban van",
+            "10030015": "A tag nem létezik",
+            "10030016": "A felhasználó {0} adatot töltött ki, kérjük, alkalmazza a visszavonást, és lépjen kapcsolatba az ügyfélszolgálattal a számla visszaállítása érdekében",
+            "10030017": "Nem sikerült megtalálni a terméket, kérjük, lépjen kapcsolatba az ügyfélszolgálattal",
+            "10030018": "Nincs elegendő számlaegyenleg",
+            "10030019": "A fiók letiltásra került",
+            "10030020": "A kereskedelemre korlátozott fiók",
+            "10030021": "A fiók visszavonását tilos",
+            "10030022": "Tranzakciós jelszó hiba",
+            "10030023": "A visszavonási számla nincs összekapcsolva, kérjük, először kösse össze a visszavonási számlát",
+            "10030024": "Régi jelszó hiba",
+            "10030027": "A kivonás korlátozva van. Kérjük, lépjen kapcsolatba az ügyfélszolgálattal további részletekért",
+            "10030028": "Az alacsony hitelpontok megakadályozzák a pénzfelvételt",
+            "10030030": "Nem a megengedett időszakban van",
+            "10030031": "Kérjük, lépjen kapcsolatba az ügyfélszolgálattal a mai feladat visszaállításához"
+        },
+        "errorHandler": {
+            "InternalError": "Belső hiba a JavaScript motorban",
+            "ReferenceError": "Az objektum nem található",
+            "TypeError": "Helytelen típus vagy objektum használat",
+            "RangeError": "Paraméter túllépte a tartományt a beépített objektumok használatakor",
+            "SyntaxError": "Szintaktikai hiba",
+            "EvalError": "Az Eval helytelen használata",
+            "URIError": "URI hiba",
+            "UnknownError": "Ismeretlen"
+        },
+        "Network": {
+            "timedout": "A kérés időtúllépése! Kérjük, próbálja újra később",
+            "error": "Hálózati hiba! Kérjük, próbálja újra később"
+        },
+        "request": {
+            "NoMoreData": "Nincs több adat",
+            "FileMaxSize": "A fájlméret meghaladja a maximális értéket, ami {0}M"
+        },
+        "response": {
+            "loading": "Betöltés",
+            "success": "Siker",
+            "fail": "Sikertelen",
+            "complete": "Teljes"
+        },
+        "page": {
+            "notexist": "Elnézést, a megpróbált oldal nem létezik~"
+        }
+    },
+    "login": {
+        "login": {
+            "tips": "Nincs fiókja?",
+            "Signup": "Regisztráció",
+            "form": {
+                "label": [
+                    "Felhasználónév/Telefon",
+                    "Jelszó"
+                ]
+            },
+            "forgotPassword": "Elfelejtett jelszó?",
+            "contactSupport": "Lépjen kapcsolatba az ügyfélszolgálattal"
+        },
+        "register": {
+            "form": {
+                "label": [
+                    "Felhasználónév",
+                    "Telefon",
+                    "Tranzakciós jelszó",
+                    "Bejelentkezési jelszó",
+                    "Bejelentkezési jelszó megerősítése",
+                    "Nem",
+                    "Meghívókód"
+                ],
+                "rule": {
+                    "Phone": "Telefon nem lehet kevesebb, mint 6 számjegy",
+                    "ConfirmLoginPassword": "Következetlen jelszavak",
+                    "TradingPassword": "A tranzakciós jelszó hossza nem lehet kevesebb, mint 6 számjegy",
+                    "LoginPassword": "A bejelentkezési jelszó hossza nem lehet kevesebb, mint 6 számjegy"
+                }
+            },
+            "agree": "Egyetértek azzal"
+        }
+    },
+    "home": {
+        "service": [
+            "Szolgáltatás",
+            "Esemény",
+            "Kifizetés",
+            "Befizetés",
+            "ÁSZF",
+            "Tanúsítvány",
+            "GYIK",
+            "Rólunk",
+            "VIP"
+        ],
+        "sign": {
+            "title": "{0} napig bejelentkezve",
+            "SignIn": "Bejelentkezés"
+        },
+        "Popularhotels": "Együttműködési márka",
+        "HotelRankings": "Szállodák rangsora",
+        "vip": {
+            "title": "@:vip.title",
+            "more": "Továbbiak"
+        }
+    },
+    "starting": {
+        "Hi": "Szia",
+        "WelcomeBack": ", üdv itt",
+        "WalletBalance": {
+            "title": "Pénztárcamérleg",
+            "tips": "A nyereséget ide fogják hozzáadni"
+        },
+        "FrozenBalance": {
+            "title": "Fagyasztott egyenleg",
+            "tips": "A fagyasztott mennyiség ide kerül hozzáadásra"
+        },
+        "TodaysProfit": {
+            "title": "A mai nyereség",
+            "tips": "Megkeresett jutalék"
+        },
+        "StartOptimization": "Kezdés optimalizálás",
+        "CompletedToday": "Ma fejeződött be",
+        "Start": "Kezdés",
+        "Notice": {
+            "title": "Értesítés",
+            "date": "Online támogatási idő {0} - {1}",
+            "tips": "Kérjük, lépjen kapcsolatba az online támogatással a segítségért"
+        },
+        "TaskDialog": {
+            "title": "Feladatküldés",
+            "TotalAmount": "Teljes összeg",
+            "Profit": "Nyereség",
+            "TaskCode": "Feladatkód",
+            "CreatedAt": "Létrehozva"
+        }
+    },
+    "my": {
+        "InvitationCode": "Meghívókód",
+        "SignSeq": "Egymást követő bejelentkezési napok",
+        "CreditScore": "Hitelminősítés",
+        "MyFinancial": {
+            "title": "Saját Pénzügyeim",
+            "menu": [
+                "Befizetés",
+                "Kivonás",
+                "Tranzakció"
+            ]
+        },
+        "MyDetail": {
+            "title": "Saját Részleteim",
+            "menu": [
+                "Személyes Információk",
+                "Fizetési Módok"
+            ]
+        },
+        "Other": {
+            "title": "Egyéb",
+            "menu": [
+                "Kapcsolatfelvétel",
+                "Értesítések",
+                "Nyelv Váltása"
+            ]
+        },
+        "Logout": {
+            "title": "Kijelentkezés",
+            "content": "Biztosan ki szeretnél jelentkezni?"
+        }
+    },
+    "records": {
+        "status": {
+            "All": "Összes",
+            "Pending": "Függőben lévő",
+            "Frozen": "Fagyasztott",
+            "Completed": "Befejezett",
+            "Undone": "Nem elvégzett"
+        },
+        "TotalAmount": "Teljes összeg",
+        "Profit": "Profit"
+    },
+    "withdraw": {
+        "tabs": [
+            "Kivonás",
+            "Történelem"
+        ],
+        "History": {
+            "tabs": [
+                "Áttekintés",
+                "Siker",
+                "Elutasítás"
+            ]
+        },
+        "Withdraw": {
+            "label": [
+                "Számlaszám",
+                "Rendelésszám",
+                "Cím",
+                "Összeg",
+                "Díj",
+                "Létrehozva",
+                "Állapot",
+                "Indoklás"
+            ]
+        },
+        "AccountAmount": "Számla összege",
+        "tips": "A kivonást egy órán belül megkapja",
+        "form": {
+            "label": [
+                "Kivonni kívánt összeg",
+                "Tranzakciós jelszó"
+            ],
+            "ALL": "MIND",
+            "Withdraw": "Beküldés"
+        },
+        "WithdrawAccount": "Számla visszavonása",
+        "tradingKind": [
+            "Pénzvisszafizetés",
+            "Levonás",
+            "Feltöltés",
+            "Visszavonás",
+            "Kivonás feloldása",
+            "Visszavonás",
+            "Feladat",
+            "Fő visszaküldés",
+            "Jutalék bevallás",
+            "Alárendelt jutalék bevallása",
+            "becsekkolás",
+            "Kezelési költség",
+            "Letét",
+            "Jutalom",
+            "Alapfizetés",
+            "Készpénzes segítségnyújtás",
+            "Regisztrációs bónusz",
+            "Áru osztalék",
+            "Feladat bónusz",
+            "Mások"
+        ]
+    },
+    "deposit": {
+        "tabs": [
+            "Befizetés",
+            "Történelem"
+        ],
+        "History": {
+            "tabs": [
+                "Felülvizsgálat",
+                "Siker",
+                "Elutasítás"
+            ]
+        },
+        "AccountAmount": "Számla összege",
+        "ContactCustomerService": "Kapcsolatfelvétel az ügyfélszolgálattal",
+        "NoCustomerService": "Ügyfélszolgálat elfoglalt",
+        "tips": "Kérjük, adja be az előző értékelést, mielőtt folytatná a következő értékelést"
+    },
+    "vip": {
+        "title": "VIP-szintek",
+        "current": "Jelenlegi"
+    },
+    "profileItem": {
+        "title": "Információ módosítása",
+        "menu": [
+            "Személyes információk módosítása",
+            "Felhasználónév",
+            "Jelszó frissítése",
+            "Tranzakciós jelszó frissítése"
+        ],
+        "updatePassword": {
+            "form": {
+                "label": [
+                    "Régi jelszó",
+                    "Új jelszó",
+                    "Új jelszó megerősítése"
+                ]
+            }
+        },
+        "updateTransactionPassword": {
+            "form": {
+                "label": [
+                    "Régi jelszó",
+                    "Új jelszó",
+                    "Új jelszó megerősítése"
+                ]
+            }
+        }
+    },
+    "paymentMethods": {
+        "title": "Fizetési Módszerek",
+        "tips": "Kedves felhasználó, kérjük, töltse ki ERC20/TRC20 címét. Kérjük, ne adja meg banki számlaadatokat és jelszavát",
+        "form": {
+            "TransactionPassword": "Tranzakciós Jelszó",
+            "Address": "Pénztárcacím"
+        },
+        "label": [
+            "Bank Neve",
+            "Központi Kód",
+            "Központ Neve",
+            "Befizetés Típusa",
+            "Számlaszám",
+            "Számlatulajdonos"
+        ],
+        "tabs": [
+            "Bankkártya",
+            "Hálózat"
+        ],
+        "delete": "Törlés",
+        "default": "Alapértelmezett",
+        "create": "Létrehozás",
+        "type": "Kifizetés Típusa",
+        "defaultAccount": "Alapértelmezett Kifizetési Számla",
+        "deleteMsg": "Biztosan törölni szeretné?"
+    },
+    "gifts": {
+        "title": "Ajándék Kártya Központ",
+        "myPoints": "Saját pontjaim",
+        "SelectedGifts": "Kiválasztott ajándékok",
+        "form": {
+            "label": {
+                "title": "Keresés",
+                "points": "Pontok"
+            }
+        },
+        "redemption": "Megváltás",
+        "stock": "Készlet",
+        "id": {
+            "redeemPoints": "Váltson be szükséges pontokat:",
+            "btn": "Most beváltás",
+            "title": "Vásárlási értesítés",
+            "content": "Kedves Dolgozó! Köszönjük, hogy részt vett a munkában.\n\nKérjük, olvassa el az alábbi feltételeket a pontok beváltása előtt:\n\n[Munkapontok] A rendeléskészlet adatoptimalizálásának napi elvégzése után a dolgozók 1 ajándékpontot kaphatnak, amely részleges ajándék-szponzorált beváltásra használható fel.\n[Ajándék beváltása] A dolgozóknak meg kell adniuk a megfelelő szállítási címet, és az ajándékot 14 napon belül ingyenesen kiszállítják világszerte. A beváltás befejezése után kapcsolatba léphet az ügyfélszolgálattal, hogy megkapja a nyomkövetési számot, hogy nyomon kövesse az ajándék folyamatát. A platform nem ad ki információkat harmadik feleknek.\nMegjegyzés: Miután a pontokat ajándékra váltották be, nem téríthetők vissza"
+        },
+        "applyDialog": {
+            "title": "Információ fogadása",
+            "form": {
+                "consignee": "Címzett",
+                "area": "Terület",
+                "telephone": "Telefon",
+                "deliveryAddress": "Szállítási cím"
+            },
+            "btn": "Küldés"
+        },
+        "records": {
+            "title": "Feljegyzések",
+            "status": [
+                "Várakozás a szállításra",
+                "Kiszállított",
+                "Kézbesített",
+                "Törölve"
+            ]
+        }
+    }
+}
